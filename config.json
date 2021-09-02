@@ -1,0 +1,24 @@
+{
+    "token": ":)",
+    "messages": 0,
+    "status": {
+        "name": "Durum",
+        "type": 3
+    },
+    "corona": {
+        "date": "31/08/2021",
+        "totalTests": "",
+        "totalPatients": "",
+        "totalDeaths": "",
+        "totalIntensiveCare": "",
+        "totalIntubated": "",
+        "totalRecovered": "",
+        "tests": "297112",
+        "cases": "21880",
+        "patients": "",
+        "critical": "",
+        "pneumoniaPercent": "%",
+        "deaths": "356",
+        "recovered": "14106"
+    }
+}
