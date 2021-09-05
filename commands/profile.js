@@ -49,6 +49,8 @@ module.exports = {
         ctx.clip()
         ctx.drawImage(avatar, 265, 39, 186, 186)
 
+        const formatter = new Intl.NumberFormat()
+
         const attachment = new MessageAttachment(pp.toBuffer(), 'profile.png')
         const home = new MessageEmbed()
             .setTitle(guildMember.displayName + ' Kullanıcısının Legion İstatistikleri')
@@ -68,7 +70,7 @@ module.exports = {
                 {
                     inline: true,
                     name: 'Legion puanı: :yen:',
-                    value: memberObject.lp + ' LP'
+                    value: formatter.format(memberObject.lp).replace(',', '.') + ' ' + Util.emoji('LP_small_spin', interaction.client).toString()
                 },
                 {
                     inline: true,

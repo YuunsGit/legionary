@@ -32,9 +32,19 @@ module.exports = client => {
             return out[date]
         })
 
-        const cases = parseInt(dataObj.cases)<parseInt(config.corona.cases) ? dataObj.cases + emoji('decrease').toString() : dataObj.cases + emoji('increase').toString()
-        const tests = parseInt(dataObj.tests)<parseInt(config.corona.tests) ? dataObj.tests + emoji('decrease').toString() : dataObj.tests + emoji('increase').toString()
-        const deaths = parseInt(dataObj.deaths)<parseInt(config.corona.deaths) ? dataObj.deaths + emoji('decrease').toString() : dataObj.deaths + emoji('increase').toString()
+        const formatter = new Intl.NumberFormat()
+
+        const coronaData = {
+            "tests": 0,
+            "cases": 0,
+            "deaths": 0
+        }
+        for (const one of ["tests", "cases", "deaths"]) {
+            const data = formatter.format(dataObj[one]).replace(',', '.')
+            coronaData[one] = parseInt(dataObj[one]) < parseInt(config.corona[one]) ?
+                data + emoji('decrease').toString() :
+                data + emoji('increase').toString()
+        }
 
         const embed = new MessageEmbed()
             .setTitle("İyi Akşamlar Legion! :night_with_stars:")
@@ -56,17 +66,17 @@ module.exports = client => {
                 {
                     inline: true,
                     name: "Test sayısı",
-                    value: tests
+                    value: coronaData.tests
                 },
                 {
                     inline: true,
                     name: "Vaka sayısı",
-                    value: cases
+                    value: coronaData.cases
                 },
                 {
                     inline: true,
                     name: "Ölüm sayısı",
-                    value: deaths
+                    value: coronaData.deaths
                 },
                 {
                     inline: false,
