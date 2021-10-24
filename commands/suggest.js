@@ -17,7 +17,7 @@ module.exports = {
                         value: "513656451475046421"
                     },
                     {
-                        name: "He-Man",
+                        name: "He-Man önerisi",
                         value: "877160655071871038"
                     }
                 ]

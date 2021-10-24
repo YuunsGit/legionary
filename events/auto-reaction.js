@@ -18,12 +18,11 @@ module.exports = {
                 return
             }
         }
+        let reactionMsg = ''
         for (const one of reactions.typo) {
             if (message.content.includes(`${one.text} `) || message.content.includes(` ${one.text}`) || message.content === one.text) {
-                message.reply({
-                    content: Util.capitalize(one.reaction.replace('{user}', message.author.toString())),
-                    allowedMentions: {repliedUser: true}
-                })
+                reactionMsg = reactionMsg + '\n' + Util.capitalize(one.reaction.replace('{user}', message.author.toString()))
+
 
                 const memberObject = Util.getMember(message.author.id)
                 memberObject.typo++
@@ -31,5 +30,10 @@ module.exports = {
                 Util.saveFile('/root/legionary/members.json', members)
             }
         }
+        if (reactionMsg === '') return
+        message.reply({
+            content: reactionMsg,
+            allowedMentions: {repliedUser: true}
+        })
     }
 }

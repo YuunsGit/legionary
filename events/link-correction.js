@@ -1,4 +1,5 @@
-const {MessageEmbed} = require("discord.js");
+const {MessageEmbed} = require('discord.js')
+
 module.exports = {
     name: 'messageCreate',
     async execute(message, client) {
@@ -18,7 +19,8 @@ module.exports = {
             .setAuthor(mentioned.author.username + ':', mentioned.author.displayAvatarURL({dynamic: true}))
             .setColor("#b752b7")
             .setDescription('> ' + mentioned.content)
-            .setFooter('#' + client.guilds.cache.get(guild).channels.cache.get(channel).name + ' • ' + mentioned.createdAt.getUTCDate() + ' . ' + (mentioned.createdAt.getUTCMonth() + 1) + '.' + mentioned.createdAt.getUTCFullYear())
+            .setTimestamp(mentioned.createdAt)
+            .setFooter('#' + client.guilds.cache.get(guild).channels.cache.get(channel).name)
 
         message.reply({embeds: [embed]})
     }

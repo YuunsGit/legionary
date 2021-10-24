@@ -42,7 +42,7 @@ module.exports = {
         const ctx = pp.getContext('2d')
         const bg = await canvas.loadImage('/root/legionary/images/bg.png')
         ctx.drawImage(bg, 0, 0, pp.width, pp.height)
-        const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({format: 'jpg'}));
+        const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({format: 'jpg'}))
         ctx.beginPath()
         ctx.arc(358, 132, 93, 0, Math.PI * 2, true)
         ctx.closePath()
@@ -95,7 +95,9 @@ module.exports = {
                 {
                     inline: true,
                     name: 'Sunucuya katılma tarihi: :calendar:',
-                    value: guildMember.joinedAt.getUTCDate() + '.' + (guildMember.joinedAt.getUTCMonth() + 1) + '.' + guildMember.joinedAt.getUTCFullYear()
+                    value: (guildMember.joinedAt.getUTCDate().toString().length===1 ? '0' + guildMember.joinedAt.getUTCDate() : guildMember.joinedAt.getUTCDate()) + '.' +
+                        ((guildMember.joinedAt.getUTCMonth() + 1).toString().length===1 ? '0' + (guildMember.joinedAt.getUTCMonth() + 1) : (guildMember.joinedAt.getUTCMonth() + 1)) + '.' +
+                        guildMember.joinedAt.getUTCFullYear()
                 }
             ])
             .setImage("attachment://profile.png")
