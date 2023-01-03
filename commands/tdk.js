@@ -21,7 +21,7 @@ module.exports = {
         }
 
         const word = interaction.options.getString('kelime')
-        const wordObj = await fetch(encodeURI(`https://sozluk.gov.tr/gts?ara=${word}`)).then(res => res.json()).then(out => {
+        const wordObj = await fetch("https://sozluk.gov.tr/gts?ara=hava").then(res => res.json()).then(out => {
             return out
         })
 
@@ -39,7 +39,11 @@ module.exports = {
             .setTitle(`"${word}" kelimesinin anlamı:`)
             .setDescription(desc)
             .setColor("#b752b7")
-            .setFooter('Sözlük verileri resmi TDK sözlüğünden sağlanmaktadır.')
+            .setFooter(
+                {
+                    text: 'Sözlük verileri resmi TDK sözlüğünden sağlanmaktadır.'
+                }
+            )
 
         interaction.reply({embeds: [embed]})
     }

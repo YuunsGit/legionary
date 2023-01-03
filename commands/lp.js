@@ -96,6 +96,6 @@ module.exports = {
                 interaction.reply({content: `> ${interaction.options.getUser('kullanıcı').toString()}`, embeds: [embed]})
         }
 
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }
 }

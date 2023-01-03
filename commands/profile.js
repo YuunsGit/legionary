@@ -40,7 +40,7 @@ module.exports = {
 
         const pp = canvas.createCanvas(480, 270)
         const ctx = pp.getContext('2d')
-        const bg = await canvas.loadImage('/root/legionary/images/bg.png')
+        const bg = await canvas.loadImage('/home/azureuser/legionary/images/bg.png')
         ctx.drawImage(bg, 0, 0, pp.width, pp.height)
         const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({format: 'jpg'}))
         ctx.beginPath()
@@ -54,7 +54,10 @@ module.exports = {
         const attachment = new MessageAttachment(pp.toBuffer(), 'profile.png')
         const home = new MessageEmbed()
             .setTitle(guildMember.displayName + ' Kullanıcısının Legion İstatistikleri')
-            .setAuthor('Legion Kullanıcı Profili', 'https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png')
+            .setAuthor({
+                name: 'Legion Kullanıcı Profili',
+                iconURL: 'https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png'
+            })
             .setColor("#b752b7")
             .addFields([
                 {

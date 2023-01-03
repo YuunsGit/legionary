@@ -7,7 +7,7 @@ module.exports = () => {
         for (const one of members.members) {
             one.daily = true
         }
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }, {})
 
     reloadDaily.start()

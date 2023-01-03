@@ -16,11 +16,14 @@ module.exports = {
         if (!mentioned.content) return
 
         const embed = new MessageEmbed()
-            .setAuthor(mentioned.author.username + ':', mentioned.author.displayAvatarURL({dynamic: true}))
+            .setAuthor({
+                name: mentioned.author.username + ':',
+                iconURL: mentioned.author.displayAvatarURL({dynamic: true})
+            })
             .setColor("#b752b7")
             .setDescription('> ' + mentioned.content)
             .setTimestamp(mentioned.createdAt)
-            .setFooter('#' + client.guilds.cache.get(guild).channels.cache.get(channel).name)
+            .setFooter({text: '#' +client.guilds.cache.get(guild).channels.cache.get(channel).name})
 
         message.reply({embeds: [embed]})
     }

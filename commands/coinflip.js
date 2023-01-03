@@ -51,9 +51,9 @@ module.exports = {
             const value = Math.round(Math.random())
             const random = Math.round(Math.random() * 5000)
 
-            const yazi = new MessageAttachment('/root/legionary/images/yazi.png', 'yazi.png')
-            const tura = new MessageAttachment('/root/legionary/images/tura.png', 'tura.png')
-            const dik = new MessageAttachment('/root/legionary/images/dik.png', 'dik.png')
+            const yazi = new MessageAttachment('../images/yazi.png', 'yazi.png')
+            const tura = new MessageAttachment('../images/tura.png', 'tura.png')
+            const dik = new MessageAttachment('../images/dik.png', 'dik.png')
 
             const embed = new MessageEmbed()
                 .setDescription('Şans insanlara hakim olur,\ninsanlar şansa değil.')
@@ -66,7 +66,7 @@ module.exports = {
                 memberObject.lp += 999
                 await interaction.reply({embeds: [embed], files: [dik], allowedMentions: {repliedUser: true}})
                 try {
-                    fs.writeFileSync('/root/legionary/members.json', JSON.stringify(members, null, 4))
+                    fs.writeFileSync('..y/members.json', JSON.stringify(members, null, 4))
                 } catch (err) {
                     console.log(err)
                 }
@@ -106,7 +106,7 @@ module.exports = {
                 }
             }
 
-            Util.saveFile('/root/legionary/members.json', members)
+            Util.saveFile('../members.json', members)
 
             talkedRecently.add(interaction.member.id)
             setTimeout(() => {

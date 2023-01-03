@@ -38,7 +38,7 @@ module.exports = {
 
         const suggestion = interaction.options.getString('öneri')
         const suggestionChannel = interaction.guild.channels.cache.get(interaction.options.getString('türü'))
-        const idea = new MessageAttachment('/root/legionary/images/idea.gif', 'idea.gif')
+        const idea = new MessageAttachment('../images/idea.gif', 'idea.gif')
 
         const embed = new MessageEmbed()
             .setTitle("Yeni öneri: :paperclip:")

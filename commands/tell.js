@@ -2,7 +2,6 @@ module.exports = {
     data: {
         name: 'söyle',
         description: 'He-Man bir şey mi dedi?',
-        default_permission: false,
         options: [
             {
                 name: 'mesaj',
@@ -21,7 +20,6 @@ module.exports = {
         {
             id: '305044214239068162',
             type: 'USER',
-            permission: true
         }
     ],
     async execute(interaction) {

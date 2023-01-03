@@ -1,24 +1,23 @@
 {
-    "token": ":)",
-    "messages": 0,
+    "messages": 17920,
     "status": {
-        "name": "Durum",
+        "name": "Sizi",
         "type": 3
     },
     "corona": {
-        "date": "31/08/2021",
+        "date": "31/05/2022",
         "totalTests": "",
         "totalPatients": "",
         "totalDeaths": "",
         "totalIntensiveCare": "",
         "totalIntubated": "",
         "totalRecovered": "",
-        "tests": "297112",
-        "cases": "21880",
+        "tests": "128854",
+        "cases": "975",
         "patients": "",
         "critical": "",
         "pneumoniaPercent": "%",
-        "deaths": "356",
-        "recovered": "14106"
+        "deaths": "4",
+        "recovered": "946"
     }
 }

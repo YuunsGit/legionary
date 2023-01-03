@@ -5,7 +5,6 @@ module.exports = {
     data: {
         name: "durum",
         description: "Botun anlık durumunu değiştirir.",
-        default_permission: false,
         options: [
             {
                 type: 3,
@@ -51,7 +50,6 @@ module.exports = {
         {
             id: '305044214239068162',
             type: 'USER',
-            permission: true
         }
     ],
     async execute(interaction) {
@@ -70,7 +68,7 @@ module.exports = {
             type: type
         }
 
-        await Util.saveFile('/root/legionary/config.json', config)
+        await Util.saveFile('../config.json', config)
         interaction.reply(`Durum başarıyla güncellendi. ${Util.emoji('ln_pepeok', interaction.client)}`)
     }
 }

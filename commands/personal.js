@@ -103,6 +103,6 @@ module.exports = {
                 interaction.reply({content: 'Girdiğin bilgi başarıyla alındı ve profiline kaydedildi.'})
         }
 
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }
 }

@@ -16,8 +16,8 @@ module.exports = {
         try {
             const channel = reaction.message.channel.id
             const memberObject = Util.getMember(reaction.message.author.id)
-            const cross = new MessageAttachment('/root/legionary/images/cross.gif', 'idea.gif')
-            const check = new MessageAttachment('/root/legionary/images/check.gif', 'idea.gif')
+            const cross = new MessageAttachment('../images/cross.gif', 'idea.gif')
+            const check = new MessageAttachment('../images/check.gif', 'idea.gif')
 
             if (!['513656451475046421', '877160655071871038'].includes(channel)) return
 
@@ -42,7 +42,7 @@ module.exports = {
                     reaction.message.edit({files: [check]})
             }
 
-            Util.saveFile('/root/legionary/members.json', members)
+            Util.saveFile('../members.json', members)
         } catch (err) {
         }
     }

@@ -6,7 +6,6 @@ module.exports = {
     data: {
         name: "kayıt",
         description: "Günlük, aylık ve yıllık olayları kaydeder.",
-        default_permission: false,
         options: [
             {
                 type: 3,
@@ -60,7 +59,6 @@ module.exports = {
         {
             id: '876461729956126730',
             type: 'ROLE',
-            permission: true
         }
     ],
     execute(interaction) {
@@ -133,6 +131,6 @@ module.exports = {
                 interaction.reply(`Yeni kayıt başarıyla eklendi. ${Util.emoji('ln_pepeok', interaction.client)}`)
         }
 
-        Util.saveFile('/root/legionary/logs.json', logs)
+        Util.saveFile('../logs.json', logs)
     }
 }

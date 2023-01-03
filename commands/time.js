@@ -2,13 +2,11 @@ module.exports = {
     data: {
         name: 'zaman',
         description: 'Yunus\'un sunucu zamanını öğrenmesini sağlayan yüce komut.',
-        default_permission: false
     },
     perms: [
         {
             id: '305044214239068162',
             type: 'USER',
-            permission: true
         }
     ],
     execute(interaction) {

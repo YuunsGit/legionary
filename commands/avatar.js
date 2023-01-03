@@ -14,16 +14,13 @@ module.exports = {
         ]
     },
     async execute(interaction) {
-        if (interaction.member.id === '429269659582201856' || interaction.member.id === '367357400694521866') {
-            interaction.reply({content: '¯\\_(ツ)_/¯', allowedMentions: {repliedUser: true}})
-            return
-        }
-
         const id = interaction.options.getUser('kullanıcı').id
         const guildMember = await interaction.guild.members.fetch(id)
 
         const embed = new MessageEmbed()
-            .setAuthor(guildMember.user.username + '#' + guildMember.user.discriminator)
+            .setAuthor({
+                name: guildMember.user.username + '#' + guildMember.user.discriminator
+            })
             .setTitle(guildMember.displayName + ' Kullanıcısının Avatarı')
             .setColor("#b752b7")
             .setURL(guildMember.user.displayAvatarURL({dynamic: true, size: 256}))

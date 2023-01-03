@@ -70,6 +70,6 @@ module.exports = {
                 .setFooter(`${interaction.member.displayName} yardımseverlik ödülü olarak ${random} LP kazandı!`)
             interaction.reply({content: `> ${user.toString()}`, embeds: [embed]})
         }
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }
 }

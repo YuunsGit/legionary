@@ -8,6 +8,7 @@ module.exports = {
         if (message.author.id === '429269659582201856' || message.author.id === '367357400694521866') {
             return
         }
+        if (message.channel.id === '472856433797627914') return
         if (message.author.bot || !message.mentions.members || message.channel.id === '460483132508995584') return
         for (const one of reactions.meme) {
             if (message.content === one.text) {
@@ -27,7 +28,7 @@ module.exports = {
                 const memberObject = Util.getMember(message.author.id)
                 memberObject.typo++
                 memberObject.lp -= 3
-                Util.saveFile('/root/legionary/members.json', members)
+                Util.saveFile('../members.json', members)
             }
         }
         if (reactionMsg === '') return

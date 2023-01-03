@@ -27,7 +27,7 @@ module.exports = class Util {
             console.log(err)
         }
     }
-
+    
     static getMember = id => {
         if (!members.members.some(one => {return one.id === id})) {
             const newMember = {

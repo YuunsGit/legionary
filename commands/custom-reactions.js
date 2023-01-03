@@ -6,7 +6,6 @@ module.exports = {
     data: {
         name: "tepki",
         description: "Mesajlara verilen otomatik tepkileri düzenler.",
-        default_permission: false,
         options: [
             {
                 type: 3,
@@ -66,7 +65,6 @@ module.exports = {
         {
             id: '876461729956126730',
             type: 'ROLE',
-            permission: true
         }
     ],
     async execute(interaction) {
@@ -191,7 +189,7 @@ module.exports = {
                             content: `Tepki silindi. ${Util.emoji('ln_pepeok', interaction.client)}`,
                             allowedMentions: {repliedUser: true}
                         })
-                        Util.saveFile('/root/legionary/reactions.json', reactions)
+                        Util.saveFile('../reactions.json', reactions)
                         return
                     }
                     a++
@@ -257,7 +255,7 @@ module.exports = {
                 })
         }
 
-        Util.saveFile('/root/legionary/reactions.json', reactions)
+        Util.saveFile('../reactions.json', reactions)
     }
 }
 

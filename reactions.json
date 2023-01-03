@@ -1,4 +1,3476 @@
 {
-    "typo": [],
-    "meme": []
+    "typo": [
+        {
+            "id": "4ea9",
+            "text": "atatürk",
+            "reaction": "Atatürk'ün baş harfi büyük yazılır, öğren istedim {user}."
+        },
+        {
+            "id": "9c77",
+            "text": "aq",
+            "reaction": "amına koyayım demek istedin galiba. Düzelt bence onu."
+        },
+        {
+            "id": "9a6d",
+            "text": "amk",
+            "reaction": "\"amına koyayım\" demek istedin herhâlde, düzelt bence onu."
+        },
+        {
+            "id": "32be",
+            "text": "boşver",
+            "reaction": "\"boş ver\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "7b86",
+            "text": "knk",
+            "reaction": "\"kanka\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "13e8",
+            "text": "annskm",
+            "reaction": "anneni sikeyim demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "0761",
+            "text": "orspu",
+            "reaction": "orospu demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "8cf6",
+            "text": "slm",
+            "reaction": "selam demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "5c47",
+            "text": "entellektüel",
+            "reaction": "entelektüel demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "9220",
+            "text": "mrb",
+            "reaction": "merhaba demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "78a8",
+            "text": "tm",
+            "reaction": "tamam demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "af15",
+            "text": "zaafiyet",
+            "reaction": "zafiyet demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "0f08",
+            "text": "vaat etti",
+            "reaction": "vadetti demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "c26d",
+            "text": "vatetti",
+            "reaction": "vadetti demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "578d",
+            "text": "btw",
+            "reaction": "\"bu arada\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "30d2",
+            "text": "farketmez",
+            "reaction": "fark etmez demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "eac2",
+            "text": "farkeder",
+            "reaction": "fark eder demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "dc37",
+            "text": "bir çok",
+            "reaction": "birçok demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "54a6",
+            "text": "bir kaç",
+            "reaction": "birkaç demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "2809",
+            "text": "herşey",
+            "reaction": "her şey demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "ec67",
+            "text": "anane",
+            "reaction": "\"anneanne\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "cbeb",
+            "text": "itibariyle",
+            "reaction": "itibarıyla demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "7bda",
+            "text": "altyazı",
+            "reaction": "alt yazı demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "c875",
+            "text": "elalem",
+            "reaction": "\"el âlem\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "7c64",
+            "text": "herkez",
+            "reaction": "herkes demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "99fe",
+            "text": "müdahele",
+            "reaction": "müdahale demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "7e20",
+            "text": "taktir",
+            "reaction": "takdir demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "0c7e",
+            "text": "mütevazi",
+            "reaction": "mütevazı demek istedin galiba, düzelt bence onu"
+        },
+        {
+            "id": "62df",
+            "text": "birşey",
+            "reaction": "\"bir şey\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "8fdc",
+            "text": "eşortman",
+            "reaction": "\"eşofman demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "3ffa",
+            "text": "röpteşampir",
+            "reaction": "\"röpteşambır\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "c37c",
+            "text": "maydonoz",
+            "reaction": "\"maydanoz\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "4244",
+            "text": "sarmısak",
+            "reaction": "\"sarımsak\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "5531",
+            "text": "testesteron",
+            "reaction": "\"testosteron\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "2c90",
+            "text": "meyva",
+            "reaction": "\"meyve\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "ae47",
+            "text": "hergün",
+            "reaction": "\"her gün\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "959e",
+            "text": "birgün",
+            "reaction": "\"bir gün\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "221a",
+            "text": "eşki",
+            "reaction": "\"ekşi\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "aaaa",
+            "text": "vejeteryan",
+            "reaction": "\"vejetaryen\" demek istedin sanırım, düzelt bence onu. 🥦"
+        },
+        {
+            "id": "c0c1",
+            "text": "rasgele",
+            "reaction": "\"rastgele\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "2871",
+            "text": "ardarda",
+            "reaction": "art arda demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "f72e",
+            "text": "aç gözlü",
+            "reaction": "\"açgözlü\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "a629",
+            "text": "haftaiçi",
+            "reaction": "hafta içi demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "7b9b",
+            "text": "felan",
+            "reaction": "\"falan\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "51d7",
+            "text": "öğe",
+            "reaction": "\"öge\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "6861",
+            "text": "yurtdışı",
+            "reaction": "\"yurt dışı\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "6e44",
+            "text": "yurtiçi",
+            "reaction": "\"yurt içi\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "3536",
+            "text": "süpriz",
+            "reaction": "\"sürpriz\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "01da",
+            "text": "lakayt",
+            "reaction": "\"lakayıt\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "efc3",
+            "text": "istanbul",
+            "reaction": "\"İstanbul\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "6226",
+            "text": "herbiri",
+            "reaction": "her biri demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "ba74",
+            "text": "egsantrik",
+            "reaction": "\"eksantrik\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "398b",
+            "text": "nacizane",
+            "reaction": "\"naçizane\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "1d18",
+            "text": "ankara",
+            "reaction": "\"Ankara\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "581d",
+            "text": "konya",
+            "reaction": "\"Konya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "2704",
+            "text": "sezeryan",
+            "reaction": "\"sezaryen\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "b71a",
+            "text": "anime kızları gerçek değildir",
+            "reaction": "Hayır onlar gerçek tekrar düşün."
+        },
+        {
+            "id": "66ff",
+            "text": "burdur",
+            "reaction": "\"Burdur\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "61d0",
+            "text": "tabi ki",
+            "reaction": "tabii ki demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "277c",
+            "text": "yeterki",
+            "reaction": "\"yeter ki\" şeklinde yazmalısın, biraz Türkçe çalış bence. :D"
+        },
+        {
+            "id": "5612",
+            "text": "türkiye",
+            "reaction": "\"Türkiye\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "2e8b",
+            "text": "uganda",
+            "reaction": "\"Uganda\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "1300",
+            "text": "ingiltere",
+            "reaction": "\"İngiltere\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "85b3",
+            "text": "Türkçe'yi",
+            "reaction": "\"Türkçeyi\" şeklinde yazmalısın, özel isimlere yapım ekinden sonra gelen çekim ekleri kesme işaretiyle ayrılmaz."
+        },
+        {
+            "id": "434b",
+            "text": "panaroma",
+            "reaction": "\"panorama\" şeklinde yazmalısın, düzelt bence onu."
+        },
+        {
+            "id": "f0a4",
+            "text": "antalya",
+            "reaction": "\"Antalya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "0690",
+            "text": "sükut-u hayal",
+            "reaction": "\"sukutuhayal\" şeklinde yazmalısın, düzelt onu :)"
+        },
+        {
+            "id": "b27d",
+            "text": "izmir",
+            "reaction": "\"İzmir\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "368b",
+            "text": "gitgide",
+            "reaction": "\"git gide\" şeklinde yazmalısın, Türkçede kötüsün biraz sanırım :D"
+        },
+        {
+            "id": "511e",
+            "text": "fethiye",
+            "reaction": "\"Fethiye\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "d84d",
+            "text": "yuu",
+            "reaction": "\"Yunus\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "e991",
+            "text": "psikiyatrist",
+            "reaction": "\"psikiyatr\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "2e2e",
+            "text": "orjinal",
+            "reaction": "\"orijinal\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "832e",
+            "text": "burak",
+            "reaction": "\"Burak\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "96a4",
+            "text": "insiyatif",
+            "reaction": "\"inisiyatif\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "cb50",
+            "text": "klavuz",
+            "reaction": "\"kılavuz\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "caf3",
+            "text": "napıyon",
+            "reaction": "\"Ne yapıyorsun?\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "6fad",
+            "text": "napak",
+            "reaction": "ne yapalım demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "92bd",
+            "text": "her hangi",
+            "reaction": "\"herhangi\" demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "f05f",
+            "text": "karabük",
+            "reaction": "\"Karabük\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "1e2d",
+            "text": "emir etmek",
+            "reaction": "\"emretmek\" demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "65e0",
+            "text": "terketti",
+            "reaction": "\"terk etti\" demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "d54a",
+            "text": "geliyom",
+            "reaction": "geliyorum demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "cd32",
+            "text": "dersane",
+            "reaction": "\"dershane\" demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "db7b",
+            "text": "hastane",
+            "reaction": "\"hastahane\" demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "269c",
+            "text": "nevşehir",
+            "reaction": "\"Nevşehir\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "b75f",
+            "text": "eskişehir",
+            "reaction": "\"Eskişehir\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "e866",
+            "text": "antep",
+            "reaction": "Öncelikle Antep'in a'sı özel isim olduğu için büyük yazılır. İkinci olarak ise Antep, 8 Şubat 1921 tarihinde Gaziantep olmuştur ve bunun sebebi halkın göstermiş olduğu üstün kahramanlıklardır."
+        },
+        {
+            "id": "de78",
+            "text": "15 temmuz",
+            "reaction": "\"15 Temmuz\" özel bir tarih. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "e789",
+            "text": "tbmm",
+            "reaction": "\"TBMM\" özel isim. Tüm harfleri büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "b55b",
+            "text": "fetö",
+            "reaction": "sunucu kapatılmadan önce sil bence onu."
+        },
+        {
+            "id": "5df3",
+            "text": "maraş",
+            "reaction": "Maraş, dondurması ile ünlü, 7 Şubat 1973 gününde 1657 sayılı kanunla kahramanlık payesi verilerek ismi Kahramanmaraş olan önemli bir şehrimizdir."
+        },
+        {
+            "id": "6bf2",
+            "text": "kadıköy",
+            "reaction": "\"Kadıköy\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "23e3",
+            "text": "afilli",
+            "reaction": "\"afili\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "ed83",
+            "text": "akşam üstü",
+            "reaction": "\"akşamüstü\" yazmak istedin galiba, kimse görmeden düzelt bence onu."
+        },
+        {
+            "id": "f520",
+            "text": "amerika",
+            "reaction": "\"Amerika\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "e7b9",
+            "text": "aliminyum",
+            "reaction": "\"alüminyum\" demek istedin galiba, düzelt onu."
+        },
+        {
+            "id": "d87e",
+            "text": "rusya",
+            "reaction": "\"Rusya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "f723",
+            "text": "italya",
+            "reaction": "\"İtalya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "f8f9",
+            "text": "aparitif",
+            "reaction": "\"aperitif\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "b937",
+            "text": "fransa",
+            "reaction": "\"Fransa\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "319a",
+            "text": "aminiyum",
+            "reaction": "aminiyum ne demek gerizekâlı?"
+        },
+        {
+            "id": "8058",
+            "text": "antranör",
+            "reaction": "\"antrenör\" demek istedin galiba, düzelt, çabuk!"
+        },
+        {
+            "id": "5823",
+            "text": "aşcı",
+            "reaction": "\"aşçı\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "fe3d",
+            "text": "traş",
+            "reaction": "tıraş demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "60db",
+            "text": "Azerbeycan",
+            "reaction": "\"Azerbaycan\" demek istedin sanırım, kardeş ülkemizin ismini nasıl olur da bilemezsin? Kansız."
+        },
+        {
+            "id": "7690",
+            "text": "azerbeycan",
+            "reaction": "\"Azerbaycan\" demek istedin sanırım, kardeş ülkemizin ismini nasıl olur da bilemezsin? Kansız. Ayrıca özel isimlerin ilk harfi büyük yazılır."
+        },
+        {
+            "id": "9a5c",
+            "text": "japonya",
+            "reaction": "\"Japonya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "5faa",
+            "text": "azeri",
+            "reaction": "Azerbaycan Türkü demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "fd50",
+            "text": "Azeri",
+            "reaction": "Azerbaycan Türkü demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "d62e",
+            "text": "karnıbahar",
+            "reaction": "\"karnabahar\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "107c",
+            "text": "ispanya",
+            "reaction": "\"İspanya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "66b5",
+            "text": "barkot",
+            "reaction": "\"barkod\" demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "5af7",
+            "text": "polonya",
+            "reaction": "\"Polonya\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "17d3",
+            "text": "bir biri",
+            "reaction": "\"birbiri\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "cee7",
+            "text": "götünü sikiyim",
+            "reaction": "anal önermiyorum."
+        },
+        {
+            "id": "69dc",
+            "text": "püskevit",
+            "reaction": "\"bisküvi\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "956d",
+            "text": "çiğköfte",
+            "reaction": "\"çiğ köfte\" demek istedin sanırım, ayrı yazmalısın."
+        },
+        {
+            "id": "f908",
+            "text": "bilinç altı",
+            "reaction": "\"bilinçaltı\" yazmak istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "a118",
+            "text": "sie",
+            "reaction": "siktir git demek istedin herhalde, düzelt onu."
+        },
+        {
+            "id": "0c57",
+            "text": "sg",
+            "reaction": "siktir git demek istedin herhalde, düzelt onu."
+        },
+        {
+            "id": "49d0",
+            "text": "canbaz",
+            "reaction": "\"cambaz\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "600e",
+            "text": "devekuşu",
+            "reaction": "\"deve kuşu\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "c07a",
+            "text": "yeraltı",
+            "reaction": "\"yer altı\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "72b4",
+            "text": "norveç",
+            "reaction": "\"Norveç\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "64eb",
+            "text": "isveç",
+            "reaction": "\"İsveç\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "69e8",
+            "text": "elektirik",
+            "reaction": "\"elektrik\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "6e97",
+            "text": "ananı sikeyim",
+            "reaction": "anneler kutsaldır annelere sövmeden önce bir daha düşün."
+        },
+        {
+            "id": "f742",
+            "text": "cnm",
+            "reaction": "\"canım\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "b5c0",
+            "text": "stajer",
+            "reaction": "\"stajyer\" demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "e9cf",
+            "text": "gece kondu",
+            "reaction": "\"gecekondu\" diye yazılıyor, düzelt çabuk."
+        },
+        {
+            "id": "696f",
+            "text": "k*dın",
+            "reaction": "hmm, sanırım cinsiyetçi birisin. sana bir şaka yapacağım, hazır mısın? 1, 2, 3. <@!337627501432143872> :)))))))"
+        },
+        {
+            "id": "d22d",
+            "text": "nadeko",
+            "reaction": "Nadeko mu? O ismi duymayalı uzun zaman oldu. 🚬"
+        },
+        {
+            "id": "3af9",
+            "text": "k*rt",
+            "reaction": "dostum, sözünü böldüğüm için üzgünüm fakat bu sunucuda ırkçılara yer yok.  <@!337627501432143872>"
+        },
+        {
+            "id": "093d",
+            "text": "meksika",
+            "reaction": "\"Meksika\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "cfa3",
+            "text": "ibne",
+            "reaction": "sanırım biraz kaba bir arkadaşımızsın, sunucuda her telden insan barındırıyoruz ve bu yazdığın kelimeye tetiklenebilecek insan sayısı bir hayli fazla. mümkünse silebilir misin?"
+        },
+        {
+            "id": "8aec",
+            "text": "haketti",
+            "reaction": "\"hak etti\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "bf86",
+            "text": "haketmedi",
+            "reaction": "\"hak etmedi\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "c85d",
+            "text": "haketmedim",
+            "reaction": "\"hak etmedim\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "c36a",
+            "text": "hakettim",
+            "reaction": "\"hak ettim\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "f315",
+            "text": "Hıristiyan",
+            "reaction": "\"Hristiyan\" demek istedin sanırım."
+        },
+        {
+            "id": "b9a2",
+            "text": "hıristiyan",
+            "reaction": "\"Hristiyan\" demek istedin sanırım."
+        },
+        {
+            "id": "7ec7",
+            "text": "hükümet",
+            "reaction": "\"hükûmet\" demek istedin sanırım."
+        },
+        {
+            "id": "11c4",
+            "text": "hükumet",
+            "reaction": "\"hükûmet\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "165c",
+            "text": "eleştri",
+            "reaction": "\"eleştiri\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "8cca",
+            "text": "espiri",
+            "reaction": "\"espri\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "b2b6",
+            "text": "ilizyon",
+            "reaction": "\"illüzyon\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "1498",
+            "text": "idda",
+            "reaction": "\"iddia\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "f151",
+            "text": "inkilap",
+            "reaction": "\"inkılap\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "ce62",
+            "text": "kahkül",
+            "reaction": "\"kâkül\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "7a9c",
+            "text": "kapşon",
+            "reaction": "\"kapüşon\" demek istedin sanırım."
+        },
+        {
+            "id": "8804",
+            "text": "kapşonlu",
+            "reaction": "\"kapüşonlu\" demke istedin sanırım."
+        },
+        {
+            "id": "92d2",
+            "text": "acenta",
+            "reaction": "acente demek istedin sanırım."
+        },
+        {
+            "id": "96a1",
+            "text": "komidin",
+            "reaction": "\"komodin\" demek istedin sanırım."
+        },
+        {
+            "id": "0525",
+            "text": "kıravat",
+            "reaction": "\"kravat\" demek istedin sanırım."
+        },
+        {
+            "id": "461d",
+            "text": "sanane",
+            "reaction": "\"sana ne\" demek istedin sanırım. sakin ol şampiyon."
+        },
+        {
+            "id": "1547",
+            "text": "snne",
+            "reaction": "\"sana ne\" demek istedin sanırım."
+        },
+        {
+            "id": "49c8",
+            "text": "banane",
+            "reaction": "bana ne demek istedin sanırım"
+        },
+        {
+            "id": "7a83",
+            "text": "kurdale",
+            "reaction": "\"kurdele\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "2269",
+            "text": "bilader",
+            "reaction": "birader demek istedin sanırım, düzelt bence onu"
+        },
+        {
+            "id": "fcfb",
+            "text": "labaratuvar",
+            "reaction": "\"laboratuvar\" demek istedin sanırım."
+        },
+        {
+            "id": "5ebf",
+            "text": "malesef",
+            "reaction": "\"maalesef\" demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "da04",
+            "text": "dinazor",
+            "reaction": "dinozor demek istedin sanırım."
+        },
+        {
+            "id": "ab50",
+            "text": "makina",
+            "reaction": "\"makine\" demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "ddeb",
+            "text": "muhattap",
+            "reaction": "\"muhatap\" şeklinde yazılıyor."
+        },
+        {
+            "id": "cfaa",
+            "text": "müracat",
+            "reaction": "\"müracaat\" şeklinde yazılıyor."
+        },
+        {
+            "id": "e37c",
+            "text": "müsade",
+            "reaction": "\"müsaade\" şeklinde yazılıyor."
+        },
+        {
+            "id": "89a2",
+            "text": "gavat",
+            "reaction": "kavat demek istedin galiba, düzelt bence onu"
+        },
+        {
+            "id": "18d8",
+            "text": "mütahhit",
+            "reaction": "\"müteahhit\" şeklinde yazılıyor."
+        },
+        {
+            "id": "043e",
+            "text": "naturel",
+            "reaction": "\"natürel\" şeklinde yazılıyor."
+        },
+        {
+            "id": "55b2",
+            "text": "orta okul",
+            "reaction": "\"ortaokul\" şeklinde yazılıyor."
+        },
+        {
+            "id": "aa95",
+            "text": "kareografi",
+            "reaction": "koreografi demek istedin sanırım düzelt bence onu"
+        },
+        {
+            "id": "813d",
+            "text": "önsöz",
+            "reaction": "\"ön söz\" demek istedin sanırım."
+        },
+        {
+            "id": "e142",
+            "text": "poça",
+            "reaction": "\"poğaça\" şeklinde yazılır."
+        },
+        {
+            "id": "cab6",
+            "text": "pantalon",
+            "reaction": "\"pantolon\" şeklinde yazılır."
+        },
+        {
+            "id": "63e4",
+            "text": "raslantı",
+            "reaction": "\"rastlantı\" şeklinde yazılır."
+        },
+        {
+            "id": "fa18",
+            "text": "sırt üstü",
+            "reaction": "\"sırtüstü\" şeklinde yazılır."
+        },
+        {
+            "id": "85c7",
+            "text": "şarz",
+            "reaction": "\"şarj\" şeklinde yazılır."
+        },
+        {
+            "id": "111b",
+            "text": "turkuvaz",
+            "reaction": "\"turkuaz\" demek istedin herhalde, düzelt onuç"
+        },
+        {
+            "id": "cf91",
+            "text": "üstad",
+            "reaction": "\"üstat\" demelisin."
+        },
+        {
+            "id": "dec1",
+            "text": "ataç",
+            "reaction": "\"ataş\" demelisin."
+        },
+        {
+            "id": "0cef",
+            "text": "terketti",
+            "reaction": "\"terk etti\" demelisin."
+        },
+        {
+            "id": "9257",
+            "text": "terketmek",
+            "reaction": "\"terk etmek\" demelisin."
+        },
+        {
+            "id": "afaa",
+            "text": "ızdırap",
+            "reaction": "\"ıstırap\" demek istedin."
+        },
+        {
+            "id": "ee69",
+            "text": "aşşağı",
+            "reaction": "\"aşağı\" demen lazım."
+        },
+        {
+            "id": "7c9b",
+            "text": "fantazi",
+            "reaction": "\"fantezi\" demelisin."
+        },
+        {
+            "id": "6bc4",
+            "text": "afaroz",
+            "reaction": "\"aforoz\" demek istedin herhalde."
+        },
+        {
+            "id": "92c0",
+            "text": "komser",
+            "reaction": "\"komiser\" demen lazım."
+        },
+        {
+            "id": "9591",
+            "text": "afedersin",
+            "reaction": "\"affedersin\" demek istedin sanırım."
+        },
+        {
+            "id": "e13f",
+            "text": "beyzbol",
+            "reaction": "\"beysbol\" şeklinde yazılıyor, şaşırdın değil mi? :)"
+        },
+        {
+            "id": "208d",
+            "text": "çukulatam",
+            "reaction": "\"çikolatam\" demek istedin sanırım. çukulata ne, ergen misin yoksa?"
+        },
+        {
+            "id": "65eb",
+            "text": "jenerasyon",
+            "reaction": "jenerasyon yerine Türkçesi olan \"kuşak, nesil\" kullanılabilir."
+        },
+        {
+            "id": "27db",
+            "text": "imitasyon",
+            "reaction": "yani taklit demek istedin."
+        },
+        {
+            "id": "ea0a",
+            "text": "mentalite",
+            "reaction": "zihniyet demek istedin sanırım"
+        },
+        {
+            "id": "dd49",
+            "text": "absürt",
+            "reaction": "gülünç demek istedin galiba?"
+        },
+        {
+            "id": "19a5",
+            "text": "pesimist",
+            "reaction": "karamsar diyebilirsin."
+        },
+        {
+            "id": "52d9",
+            "text": "baybay",
+            "reaction": "güle güle demen lazım türko."
+        },
+        {
+            "id": "e2b1",
+            "text": "bay bay",
+            "reaction": "güle güle demen lazım türko."
+        },
+        {
+            "id": "2878",
+            "text": "byby",
+            "reaction": "güle güle demen lazım türko"
+        },
+        {
+            "id": "b5c9",
+            "text": "byebye",
+            "reaction": "güle güle demen lazım türko."
+        },
+        {
+            "id": "4679",
+            "text": "bayys",
+            "reaction": "güle güle demen lazım türko"
+        },
+        {
+            "id": "94c4",
+            "text": "bayyy",
+            "reaction": "güle güle desene bunun yerine"
+        },
+        {
+            "id": "c078",
+            "text": "bayyyyyyys",
+            "reaction": "güle güle demek varken neden?"
+        },
+        {
+            "id": "090f",
+            "text": "perspektif",
+            "reaction": "bakış açısı demek istedin sanırım."
+        },
+        {
+            "id": "9479",
+            "text": "mikser",
+            "reaction": "karıştırıcı demek istedin sanırım."
+        },
+        {
+            "id": "85c1",
+            "text": "online",
+            "reaction": "çevrimiçi demek istedin sanırım."
+        },
+        {
+            "id": "937e",
+            "text": "offline",
+            "reaction": "çevrimdışı demek istedin sanırım."
+        },
+        {
+            "id": "e942",
+            "text": "feedback",
+            "reaction": "geri bildirim demek istedin sanırım."
+        },
+        {
+            "id": "c7dd",
+            "text": "şov ",
+            "reaction": "gösteri desen daha hoş olurdu."
+        },
+        {
+            "id": "47f7",
+            "text": "holding",
+            "reaction": "yani işletme demek istedin"
+        },
+        {
+            "id": "b609",
+            "text": "lider",
+            "reaction": "lider yerine önder kelimesini kullanman daha hoş olur."
+        },
+        {
+            "id": "7439",
+            "text": "bye",
+            "reaction": "güle güle demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "3ad4",
+            "text": "yatıyom",
+            "reaction": "yatıyorum demek istedin galiba"
+        },
+        {
+            "id": "87de",
+            "text": "naber",
+            "reaction": "\"Ne haber\" demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "a927",
+            "text": "herkeze",
+            "reaction": "herkese demek istedin sanırım"
+        },
+        {
+            "id": "d07a",
+            "text": "mrblar",
+            "reaction": "merhabalar demek istedin sanırım."
+        },
+        {
+            "id": "ccff",
+            "text": "meraba",
+            "reaction": "merhaba demek istedin sanırım"
+        },
+        {
+            "id": "bd80",
+            "text": "merabalar",
+            "reaction": "merhabalar demek istedin sanırım"
+        },
+        {
+            "id": "6671",
+            "text": "deil",
+            "reaction": "değil demek istedin sanırım."
+        },
+        {
+            "id": "360a",
+            "text": "gzl",
+            "reaction": "güzel demek istedin sanırım."
+        },
+        {
+            "id": "44dc",
+            "text": "walla",
+            "reaction": "vallahi demek istedin sanırım"
+        },
+        {
+            "id": "b2f7",
+            "text": "evt",
+            "reaction": "evet demek istedin sanırım, düzelt onu."
+        },
+        {
+            "id": "294f",
+            "text": "iiyim",
+            "reaction": "demek iyisin. o zaman ii'yi iyi şeklinde yazsan nasıl olur?"
+        },
+        {
+            "id": "f9c5",
+            "text": "şöle",
+            "reaction": "şöyle demek istedin galiba."
+        },
+        {
+            "id": "202d",
+            "text": "koyim",
+            "reaction": "koyayım demek istedin sanırım"
+        },
+        {
+            "id": "f164",
+            "text": "lna",
+            "reaction": "\"ulan\" demek istedin sanırsam. Düzelt bence onu."
+        },
+        {
+            "id": "78b3",
+            "text": "napiyorsun",
+            "reaction": "\"Ne yapıyorsun?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1d55",
+            "text": "nbr",
+            "reaction": "\"Ne haber?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9f78",
+            "text": "heralde",
+            "reaction": "\"herhalde\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5944",
+            "text": "her halde",
+            "reaction": "\"herhalde\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "923d",
+            "text": "heraldeğ",
+            "reaction": "\"herhalde\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4423",
+            "text": "gelixem",
+            "reaction": "\"geleceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3104",
+            "text": "yapıcam",
+            "reaction": "\"yapacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "f3f3",
+            "text": "yapacam",
+            "reaction": "\"yapacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1c71",
+            "text": "olucak",
+            "reaction": "\"olacak\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9e5c",
+            "text": "gülücek",
+            "reaction": "\"gülecek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ec81",
+            "text": "yiyicek",
+            "reaction": "\"yiyecek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "618e",
+            "text": "gidicek",
+            "reaction": "\"gidecek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9bb0",
+            "text": "alıcak",
+            "reaction": "\"alacak\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5037",
+            "text": "dolaşıcam",
+            "reaction": "\"dolaşacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ae89",
+            "text": "sikicem",
+            "reaction": "\"sikeceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a9bb",
+            "text": "oturcam",
+            "reaction": "\"oturacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4282",
+            "text": "küfür etme",
+            "reaction": "\"küfretme\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6059",
+            "text": "küfür etmek",
+            "reaction": "\"küfretmek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8bb7",
+            "text": "dolaşcam",
+            "reaction": "\"dolaşacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9b67",
+            "text": "ağlıycam",
+            "reaction": "\"ağlayacağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3395",
+            "text": "pekiğ",
+            "reaction": "\"peki\" veya \"pekâla\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4e38",
+            "text": "bayy",
+            "reaction": "\"hoşça kal\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8370",
+            "text": "hoşçakal",
+            "reaction": "\"hoşça kal\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "45c7",
+            "text": "alasmaldık",
+            "reaction": "\"Allah'a ısmarladık\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1d8f",
+            "text": "alasmaladık",
+            "reaction": "\"Allah'a ısmarladık\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "923b",
+            "text": "allahaısmarladık",
+            "reaction": "\"Allah'a ısmarladık\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d684",
+            "text": "yapıyom",
+            "reaction": "\"yapıyorum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "db04",
+            "text": "yapıyon",
+            "reaction": "\"yapıyorsun\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "08d1",
+            "text": " diyon",
+            "reaction": "\"diyorsun\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "da88",
+            "text": "diyom",
+            "reaction": "\"diyorum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "e93e",
+            "text": "helehele",
+            "reaction": "\"hele hele\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "79c5",
+            "text": "acaip",
+            "reaction": "\"acayip\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "56ad",
+            "text": "ananı sikim",
+            "reaction": "\"annenle cinsel ilişkiye gireyim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "e868",
+            "text": "anneni sikim",
+            "reaction": "\"anneni sikeyim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "bc2e",
+            "text": "olm ",
+            "reaction": "\"oğlum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0ba6",
+            "text": "Sie",
+            "reaction": "\"siktir git\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5318",
+            "text": "Amk",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "e792",
+            "text": "AMk",
+            "reaction": "\"amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "26af",
+            "text": "AMK",
+            "reaction": "\"amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "b42a",
+            "text": "sikem",
+            "reaction": "\"sikeyim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6ea5",
+            "text": "yapcağınız",
+            "reaction": "\"yapacağınız\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9e4e",
+            "text": "yapcağın",
+            "reaction": "\"yapacağın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "b8e1",
+            "text": "yapcaklar",
+            "reaction": "\"yapacakları\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9449",
+            "text": "aferim",
+            "reaction": "\"aferin\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1942",
+            "text": "afferin",
+            "reaction": "\"aferin\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8a85",
+            "text": "ahlağa",
+            "reaction": "\"ahlaka\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "328c",
+            "text": "ahlağı",
+            "reaction": "\"ahlakı\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d5d6",
+            "text": "ahlağın",
+            "reaction": "\"ahlakın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6055",
+            "text": "acitasyon",
+            "reaction": "\"ajitasyon\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ae4f",
+            "text": "acıtasyon",
+            "reaction": "\"ajitasyon\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "005f",
+            "text": "akibet",
+            "reaction": "\"akıbet\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "dbdd",
+            "text": "akapunktur",
+            "reaction": "\"akupunktur\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "16dc",
+            "text": "Allahü Teala",
+            "reaction": "\"Allahutaala\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "7b16",
+            "text": "allahü teala",
+            "reaction": "\"Allahutaala\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1ca3",
+            "text": "alt yapı",
+            "reaction": "\"altyapı\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d5a4",
+            "text": "alimünyum",
+            "reaction": "\"alüminyum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0517",
+            "text": "alzheimer",
+            "reaction": "\"alzaymır\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d0ac",
+            "text": "an ve an",
+            "reaction": "\"anbean\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c61c",
+            "text": "anotomi",
+            "reaction": "\"anatomi\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8a8a",
+            "text": "arasıra",
+            "reaction": "\"ara sıra\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1d60",
+            "text": "at binmek",
+            "reaction": "\"ata binmek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4009",
+            "text": "Atatürkçülük'ü",
+            "reaction": "\"Atatürkçülüğü\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "49ae",
+            "text": "sakarya",
+            "reaction": "\"Sakarya\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "e272",
+            "text": "nickim",
+            "reaction": "\"kullanıcı ismim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3b01",
+            "text": "sivas",
+            "reaction": "\"Sivas\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "d9f2",
+            "text": "adana",
+            "reaction": "\"Adana\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "8f00",
+            "text": "adıyaman",
+            "reaction": "\"Adıyaman\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "3502",
+            "text": "afyonkarahisar",
+            "reaction": "\"Afyonkarahisar\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "a551",
+            "text": "amasya",
+            "reaction": "\"Amasya\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "15d3",
+            "text": "artvin",
+            "reaction": "\"Artvin\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "f8ce",
+            "text": "balıkesir",
+            "reaction": "\"Balıkesir\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "a804",
+            "text": "bilecik",
+            "reaction": "\"Bilecik\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "5e13",
+            "text": "bingöl",
+            "reaction": "\"Bingöl\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "ab46",
+            "text": "bitlis",
+            "reaction": "\"Bitlis\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "db8c",
+            "text": "bursa",
+            "reaction": "\"Bursa\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "a0f6",
+            "text": "çanakkale",
+            "reaction": "\"Çanakkale\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "afc5",
+            "text": "çankırı",
+            "reaction": "\"Çankırı\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "fa68",
+            "text": "çorum",
+            "reaction": "\"Çorum\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "1e83",
+            "text": "diyarbakır",
+            "reaction": "\"Diyarbakır\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "3bf7",
+            "text": "edirne",
+            "reaction": "\"Edirne\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "4aa9",
+            "text": "elazığ",
+            "reaction": "\"Elazığ\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "41c6",
+            "text": "erzincan",
+            "reaction": "\"Erzincan\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "eba2",
+            "text": "erzurum",
+            "reaction": "\"Erzurum\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "9578",
+            "text": "giresun",
+            "reaction": "\"Giresun\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "79aa",
+            "text": "gümüşhane",
+            "reaction": "\"Gümüşhane\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "1183",
+            "text": "hakkari",
+            "reaction": "\"Hakkari\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "5b54",
+            "text": "ısparta",
+            "reaction": "\"Isparta\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "b048",
+            "text": "mersin",
+            "reaction": "\"Mersin\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "d237",
+            "text": "kars",
+            "reaction": "\"Kars\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "e1bd",
+            "text": "kastamonu",
+            "reaction": "\"Kastamonu\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "d053",
+            "text": "kayseri",
+            "reaction": "\"Kayseri\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "ef12",
+            "text": "manisa",
+            "reaction": "\"Manisa\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "4d7b",
+            "text": "karskaşarı",
+            "reaction": "Kars kaşarı demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "a35a",
+            "text": "tşk",
+            "reaction": "\"teşekkürler\" demek istedin sanırım, rica ederim."
+        },
+        {
+            "id": "880b",
+            "text": "sokucam",
+            "reaction": "sokacağım demek istedin sanırım."
+        },
+        {
+            "id": "c3d4",
+            "text": "yha",
+            "reaction": "https://cdn.discordapp.com/attachments/419963388941172739/791895757258489886/cringe.mp4"
+        },
+        {
+            "id": "453f",
+            "text": "hiçbirşey",
+            "reaction": "\"hiçbir şey\" demek istedin sanırım. şey ayrı yazılır."
+        },
+        {
+            "id": "3e74",
+            "text": "napmalıyım",
+            "reaction": "\"Ne yapmalıyım?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d4b2",
+            "text": "napim",
+            "reaction": "\"Ne yapayım?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "034e",
+            "text": "napcan",
+            "reaction": "\"Ne yapacaksın?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "cfae",
+            "text": "netcen",
+            "reaction": "\"Ne edeceksin?\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9a3f",
+            "text": "mardin",
+            "reaction": "\"Mardin\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "adf5",
+            "text": "ardahan",
+            "reaction": "\"Ardahan\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "5d8d",
+            "text": "trabzon",
+            "reaction": "\"Trabzon\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "b4c6",
+            "text": "yalova",
+            "reaction": "\"Yalova\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "c244",
+            "text": "malatya",
+            "reaction": "\"Malatya\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "3b58",
+            "text": "zonguldak",
+            "reaction": "\"Zonguldak\" özel isim. Baş harfi büyük yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "f6c3",
+            "text": "ana yasa",
+            "reaction": "\"anayasa\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "54c5",
+            "text": "hukuğu",
+            "reaction": "\"hukuku\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "f335",
+            "text": "nie",
+            "reaction": "\"Niye\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "e233",
+            "text": "dicem",
+            "reaction": "\"diyeceğim\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "0a55",
+            "text": "tmmm",
+            "reaction": "\"Tamam\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "c04e",
+            "text": "tmmm",
+            "reaction": "\"tamam\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d88b",
+            "text": "tmmmm",
+            "reaction": "\"tamam\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a7a3",
+            "text": "oluyomuş",
+            "reaction": "\"oluyormuş\" demek istedin sanırım düzelt bence onu."
+        },
+        {
+            "id": "447f",
+            "text": "tdk",
+            "reaction": "Türk Dil Kurumu demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "5db0",
+            "text": "muvaffakiyetsizleştiricileştiriveremeyebileceklerimizdenmişsinizcesine",
+            "reaction": "üşenmedin mi?"
+        },
+        {
+            "id": "d6ce",
+            "text": "selfie",
+            "reaction": "Türk Dil Kurumu, vatandaşlardan gelen önerileri değerlendirerek, 2014 yılında \"kendi fotoğrafını çekmek\" anlamına gelen \"selfie\"ye Türkçe karşılık olarak \"özçekim\"i seçti. Lütfen bundan böyle \"özçekim\" kelimesini kullan."
+        },
+        {
+            "id": "a41f",
+            "text": "burdayım",
+            "reaction": "\"buradayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6f9e",
+            "text": "kapora",
+            "reaction": "\"kaparo\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "cfbd",
+            "text": "Turkey",
+            "reaction": "\"Turkei\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "d409",
+            "text": "turkey",
+            "reaction": "\"turkei\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "2e3c",
+            "text": "şovalye",
+            "reaction": "\"şövalye\" demek istedin galiba, düzelt bence onu."
+        },
+        {
+            "id": "6695",
+            "text": "ananı sikerim",
+            "reaction": "anneni sikerim demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8a10",
+            "text": "sikim",
+            "reaction": "\"sikeyim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "9200",
+            "text": "olurmu",
+            "reaction": "soru ekleri ayrı yazılır. \"olur mu?\" demelisin."
+        },
+        {
+            "id": "45bf",
+            "text": "bruh",
+            "reaction": "\"birader\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0007",
+            "text": "girelimmi",
+            "reaction": "soru ekleri ayrı yazılır. \"girelim mi?\" demelisin."
+        },
+        {
+            "id": "7fbc",
+            "text": "tamammı",
+            "reaction": "soru ekleri ayrı yazılır. \"tamam mı?\" demelisin."
+        },
+        {
+            "id": "3a4e",
+            "text": "italyalı",
+            "reaction": "\"İtalyan\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "2277",
+            "text": "oynayalımmı",
+            "reaction": "soru ekleri ayrı yazılır. \"oynayalım mı?\" demelisin."
+        },
+        {
+            "id": "6cdf",
+            "text": "gelcem",
+            "reaction": "\"geleceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5a38",
+            "text": "oynayak",
+            "reaction": "\"oynayalım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a258",
+            "text": "girek",
+            "reaction": "\"girelim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d038",
+            "text": "ölek",
+            "reaction": "\"ölelim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "7caf",
+            "text": "çıldırcam",
+            "reaction": "\"çıldıracağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3649",
+            "text": "bişey",
+            "reaction": "\"bir şey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "833b",
+            "text": "bişeyler",
+            "reaction": "\"bir şeyler\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d9a0",
+            "text": "ğidiom",
+            "reaction": "\"gidiyorum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8bb8",
+            "text": "bisiler",
+            "reaction": "\"bir şeyler\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "01ac",
+            "text": "snra",
+            "reaction": "\"sonra\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "bc1d",
+            "text": "izlrz",
+            "reaction": "\"izleriz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "b2fc",
+            "text": "tnm",
+            "reaction": "\"tamam\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "34f2",
+            "text": "glnce",
+            "reaction": "\"gelince\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3dec",
+            "text": "bne",
+            "reaction": "\"ben\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "53c0",
+            "text": "Bb",
+            "reaction": "\"Hoşça kal\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d764",
+            "text": "brb",
+            "reaction": "\"hemen döneceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6ea3",
+            "text": "gtg",
+            "reaction": "\"gitmem gerekiyor\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5649",
+            "text": "ttyl",
+            "reaction": "\"sonra konuşuruz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "aaab",
+            "text": "kalak",
+            "reaction": "\"kalalım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "eb53",
+            "text": "girekmi",
+            "reaction": "soru ekleri ayrı yazılır. \"girelim mi?\" demelisin."
+        },
+        {
+            "id": "4fff",
+            "text": "olcan",
+            "reaction": "\"olacaksın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "87b5",
+            "text": "edicen",
+            "reaction": "\"edeceksin\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "aeff",
+            "text": "olucan",
+            "reaction": "\"olacaksın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ab6c",
+            "text": "olr",
+            "reaction": "\"olur\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "56e6",
+            "text": "ndn",
+            "reaction": "\"neden\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8ea9",
+            "text": "prdn",
+            "reaction": "\"pardon\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "cda7",
+            "text": "pardn",
+            "reaction": "\"pardon\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0efc",
+            "text": "yagmur",
+            "reaction": "\"yağmur\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ae34",
+            "text": "var oluş",
+            "reaction": "\"varoluş\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4f50",
+            "text": "çok mersi",
+            "reaction": "\"çok teşekkür ederim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "019d",
+            "text": "avantaj",
+            "reaction": "Fransızca kökenli \"avantaj\" kelimesi yerine, Türkçedeki \"üstünlük\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "4bbb",
+            "text": "test etmek",
+            "reaction": "İngilizce kökenli \"test\" kelimesi yerine, Türkçedeki \"sınamak\" veya \"denemek\" sözcüklerini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "44d0",
+            "text": "fastfood",
+            "reaction": "İngilizce kökenli \"fast food\" kelimesi yerine, Türkçedeki \"hazır yemek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5ef1",
+            "text": "fast food",
+            "reaction": "İngilizce kökenli \"fast food\" kelimesi yerine, Türkçedeki \"hazır yemek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "ffaa",
+            "text": "hard disk",
+            "reaction": "İngilizce kökenli \"hard disk\" kelimesi yerine, Türkçedeki \"sabit disk\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "88a9",
+            "text": "email",
+            "reaction": "İngilizce kökenli \"e-mail\" kelimesi yerine, Türkçedeki \"elektronik posta\" veya \"e-posta\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "6b6a",
+            "text": "e-mail",
+            "reaction": "İngilizce kökenli \"e-mail\" kelimesi yerine, Türkçedeki \"elektronik posta\" veya \"e-posta\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5fda",
+            "text": "mouse",
+            "reaction": "İngilizce kökenli \"mouse\" kelimesi yerine, Türkçedeki \"fare\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "386d",
+            "text": "cursor",
+            "reaction": "İngilizce kökenli \"cursor\" kelimesi yerine, Türkçedeki \"imleç\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "a6d5",
+            "text": "server",
+            "reaction": "İngilizce kökenli \"server\" kelimesi yerine, Türkçedeki \"sunucu\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "502e",
+            "text": "absürt",
+            "reaction": "Fransızca kökenli \"absürt\" kelimesi yerine, Türkçedeki \"saçma\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "c74b",
+            "text": "adapte",
+            "reaction": "Fransızca kökenli \"adapte\" kelimesi yerine, Türkçedeki \"uyum sağlamak\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "26e7",
+            "text": "absurt",
+            "reaction": "Fransızca kökenli \"absürt\" kelimesi yerine, Türkçedeki \"saçma\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5f33",
+            "text": "ambiyans",
+            "reaction": "Fransızca kökenli \"ambiyans\" kelimesi yerine, Türkçedeki \"hava\", \"ortam\" veya \"atmosfer\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "3c63",
+            "text": "ambiance",
+            "reaction": "Fransızca kökenli \"ambiyans\" kelimesi yerine, Türkçedeki \"hava\", \"ortam\" veya \"atmosfer\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "dd90",
+            "text": "analiz",
+            "reaction": "Fransızca kökenli \"analiz\" kelimesi yerine, Türkçedeki \"çözümleme\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "1070",
+            "text": "anons",
+            "reaction": "Fransızca kökenli \"anons\" kelimesi yerine, Türkçedeki \"sesli duyuru\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "6d6c",
+            "text": "antipatik",
+            "reaction": "Fransızca kökenli \"antipatik\" kelimesi yerine, Türkçedeki \"sevimsiz\", \"itici\" veya \"soğuk\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "098e",
+            "text": "bodyguard",
+            "reaction": "İngilizce kökenli \"bodyguard\" kelimesi yerine, Türkçedeki \"koruma\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "d418",
+            "text": "body guard",
+            "reaction": "İngilizce kökenli \"bodyguard\" kelimesi yerine, Türkçedeki \"koruma\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "ea18",
+            "text": "cv",
+            "reaction": "Yabancı kökenli \"cv\" kelimesi yerine, Türkçedeki \"öz geçmiş\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5bbe",
+            "text": "data",
+            "reaction": "İngilizce kökenli \"data\" kelimesi yerine, Türkçedeki \"veri\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "9131",
+            "text": "departman",
+            "reaction": "Fransızca kökenli \"departman\" kelimesi yerine, Türkçedeki \"bölüm\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "ecfc",
+            "text": "Bne",
+            "reaction": "\"ben\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "f2cf",
+            "text": "bya",
+            "reaction": "\"bayağı\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5d69",
+            "text": "Evlencex",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "e24f",
+            "text": "evlencex",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a22a",
+            "text": "Evlencez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "07dd",
+            "text": "evlencez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6bc2",
+            "text": "Evlenecez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "08ab",
+            "text": "evlenecez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0591",
+            "text": "dizayn",
+            "reaction": "İngilizce kökenli \"dizayn\" kelimesi yerine, Türkçedeki \"tasarım\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "0892",
+            "text": "döküman",
+            "reaction": "Fransızca kökenli \"doküman\" kelimesi yerine, Türkçedeki \"belge\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "2201",
+            "text": "doküman",
+            "reaction": "Fransızca kökenli \"doküman\" kelimesi yerine, Türkçedeki \"belge\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "bb52",
+            "text": "download",
+            "reaction": "İngilizce kökenli \"download\" kelimesi yerine, Türkçedeki \"indirmek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "b31b",
+            "text": "upload",
+            "reaction": "İngilizce kökenli \"upload\" kelimesi yerine, Türkçedeki \"yüklemek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "3b75",
+            "text": "ekstra",
+            "reaction": "Fransızca kökenli \"ekstra\" kelimesi yerine, Türkçedeki \"fazladan\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "383d",
+            "text": "elimine",
+            "reaction": "Fransızca kökenli \"elimine etmek\" kelimesi yerine, Türkçedeki \"elemek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "1d9e",
+            "text": "empoze",
+            "reaction": "Fransızca kökenli \"empoze etmek\" kelimesi yerine, Türkçedeki \"dayatmak\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "da30",
+            "text": "entegre",
+            "reaction": "Fransızca kökenli \"entegre etmek\" kelimesi yerine, Türkçedeki \"kaynaştırmak\" veya \"bütünleştirmek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "a5fc",
+            "text": "feedback",
+            "reaction": "İngilizce kökenli \"feedback\" kelimesi yerine, Türkçedeki \"geribildirim\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "7fb9",
+            "text": "feed back",
+            "reaction": "İngilizce kökenli \"feedback\" kelimesi yerine, Türkçedeki \"geribildirim\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "99c8",
+            "text": "global",
+            "reaction": "İngilizce kökenli \"global\" kelimesi yerine, Türkçedeki \"küresel\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "78e2",
+            "text": "illegal",
+            "reaction": "Fransızca kökenli \"illegal\" kelimesi yerine, Türkçedeki \"yasa dışı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "e3bd",
+            "text": "imitasyon",
+            "reaction": "Fransızca kökenli \"imitasyon\" kelimesi yerine, Türkçedeki \"taklit\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "9155",
+            "text": "izolasyon",
+            "reaction": "Fransızca kökenli \"izolasyon\" kelimesi yerine, Türkçedeki \"yalıtım\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "8e35",
+            "text": "jenerasyon",
+            "reaction": "Fransızca kökenli \"jenerasyon\" kelimesi yerine, Türkçedeki \"kuşak\" veya \"nesil\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "8cb7",
+            "text": "komunikasyon",
+            "reaction": "Fransızca kökenli \"komunikasyon\" kelimesi yerine, Türkçedeki \"iletişim\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "d237",
+            "text": "koordinasyon",
+            "reaction": "Fransızca kökenli \"koordinasyon\" kelimesi yerine, Türkçedeki \"eş güdüm\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "1e01",
+            "text": "laptop",
+            "reaction": "İngilizce kökenli \"laptop\" kelimesi yerine, Türkçedeki \"dizüstü bilgisayar\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "c2ab",
+            "text": "link",
+            "reaction": "İngilizce kökenli \"link\" kelimesi yerine, Türkçedeki \"bağlantı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "65b4",
+            "text": "mantalite",
+            "reaction": "Fransızca kökenli \"mantalite\" kelimesi yerine, Türkçedeki \"anlayış\" veya \"zihniyet\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "a105",
+            "text": "monoton",
+            "reaction": "Fransızca kökenli \"monoton\" kelimesi yerine, Türkçedeki \"tekdüze\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "2c91",
+            "text": "nick name",
+            "reaction": "İngilizce kökenli \"nick name\" kelimesi yerine, Türkçedeki \"takma ad\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5fdc",
+            "text": "deyindi",
+            "reaction": "kullanmak istediğiniz sözcüğün doğru yazılışı \"değinmek\"tir."
+        },
+        {
+            "id": "7356",
+            "text": "plaj",
+            "reaction": "\"kumsal\" demek istedin sanırım. düzelt bence onu."
+        },
+        {
+            "id": "ed56",
+            "text": "çizgilfim",
+            "reaction": "\"çizgi film\" demek istedin sanırım. düzelt bence onu."
+        },
+        {
+            "id": "66ba",
+            "text": "yoo",
+            "reaction": "\"hayır\" demek istedin sanırım. düzelt bence onu."
+        },
+        {
+            "id": "9142",
+            "text": "evlenicez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "30ae",
+            "text": "Evlenicez",
+            "reaction": "\"evleneceğiz\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0257",
+            "text": "kedi",
+            "reaction": "Kedi mi? Nerede?"
+        },
+        {
+            "id": "4f1c",
+            "text": "mc",
+            "reaction": "Minecraft demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3f30",
+            "text": "valo",
+            "reaction": "Valorant demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "1993",
+            "text": "lol",
+            "reaction": "League of Legends demek istedin veya güldüğünü belirtmek için İngilizce kökenli \"lol\" kısaltmasını kullandın. Her hâlükârda düzelt bence onu."
+        },
+        {
+            "id": "6125",
+            "text": "Lol",
+            "reaction": "League of Legends demek istedin veya güldüğünü belirtmek için İngilizce kökenli \"lol\" kısaltmasını kullandın. Her hâlükârda düzelt bence onu."
+        },
+        {
+            "id": "773d",
+            "text": "Lol",
+            "reaction": "League of Legends demek istedin veya güldüğünü belirtmek için İngilizce kökenli \"lol\" kısaltmasını kullandın. Eğer o anlamda kullandıysan Türkçedeki \"sesli güldüm\" ifadesini kullanabilirsin. Her hâlükârda düzelt bence onu."
+        },
+        {
+            "id": "77d6",
+            "text": "sexism",
+            "reaction": "İngilizce kökenli \"sexism\" kelimesi yerine, Türkçedeki \"cinsiyetçilik\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "6223",
+            "text": "sexist",
+            "reaction": "İngilizce kökenli \"sexist\" kelimesi yerine, Türkçedeki \"cinsiyetçi\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "1f45",
+            "text": "haketmek",
+            "reaction": "\"hak etmek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "aba1",
+            "text": "hakketmek",
+            "reaction": "\"hak etmek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "fd60",
+            "text": "çok bilmiş",
+            "reaction": "\"çokbilmiş\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8bd3",
+            "text": "dükkan",
+            "reaction": "\"dükkân\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3075",
+            "text": "farket",
+            "reaction": "\"fark etmek\" demek istedin sanırım. Ayrı yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "faaa",
+            "text": "cs",
+            "reaction": "\"Counter Strike\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "44ae",
+            "text": "csgo",
+            "reaction": "\"Counter Strike: Global Offensive\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6948",
+            "text": "bayan",
+            "reaction": "\"kadın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c74f",
+            "text": "beyfendi",
+            "reaction": "\"beyefendi\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6d66",
+            "text": "sömestir",
+            "reaction": "Fransızca kökenli \"sömestir\" kelimesi yerine, Türkçedeki \"yarıyıl\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5790",
+            "text": "sömestr",
+            "reaction": "Fransızca kökenli \"sömestir\" kelimesi yerine, Türkçedeki \"yarıyıl\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "9111",
+            "text": "gardırop",
+            "reaction": "Fransızca kökenli \"gardırop\" kelimesi yerine, Türkçedeki \"giysi dolabı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "edd9",
+            "text": "gardrop",
+            "reaction": "Fransızca kökenli \"gardırop\" kelimesi yerine, Türkçedeki \"giysi dolabı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "166c",
+            "text": "gardolap",
+            "reaction": "Fransızca kökenli \"gardırop\" kelimesi yerine, Türkçedeki \"giysi dolabı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "bab8",
+            "text": "yiycem",
+            "reaction": "\"yiyeceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4b1b",
+            "text": "yiycek",
+            "reaction": "\"yiyecek\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ba97",
+            "text": "gidiş geliş",
+            "reaction": "\"gidişgeliş\" birleşik yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "2538",
+            "text": "ölümkalım",
+            "reaction": "\"ölüm kalım\" ayrı yazılır. Düzelt bence onu."
+        },
+        {
+            "id": "5d3b",
+            "text": "eyw",
+            "reaction": "\"eyvallah\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "cba1",
+            "text": "ısmarliyim",
+            "reaction": "\"ısmarlayayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "190a",
+            "text": "ısmarlıyım",
+            "reaction": "\"ısmarlayayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "21f8",
+            "text": "veriyim",
+            "reaction": "\"vereyim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c989",
+            "text": "desktop",
+            "reaction": "İngilizce kökenli \"desktop\" kelimesi yerine, Türkçedeki \"masaüstü\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "fd87",
+            "text": "crack",
+            "reaction": "İngilizce kökenli \"crack\" kelimesi yerine, Türkçedeki \"korsan\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "f824",
+            "text": "i refuse",
+            "reaction": "https://media.discordapp.net/attachments/419963388941172739/867502523745173544/maxresdefault.jpg"
+        },
+        {
+            "id": "10ad",
+            "text": "omg",
+            "reaction": "\"aman tanrım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0724",
+            "text": "birkez",
+            "reaction": "\"bir kez\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "2c64",
+            "text": "yapıyım",
+            "reaction": "\"yapayım\" demek istedin sanırım. \"y\" sesi \"geniş ünlüleri\" daraltır, \"yapıyım\" diye okunur, \"yapayım\" diye yazılır."
+        },
+        {
+            "id": "154f",
+            "text": "benle",
+            "reaction": "\"benimle\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "2441",
+            "text": "Benle",
+            "reaction": "\"benimle\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "39f9",
+            "text": "yapardik",
+            "reaction": "\"yapardık\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "7f38",
+            "text": "yapariz",
+            "reaction": "\"yaparız\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "b439",
+            "text": "gelicem",
+            "reaction": "\"geleceğim\" demek istedin sanırım. \"y\" sesi \"geniş ünlüleri\" daraltır, \"gelicem\" diye okunur, \"geleceğim\" diye yazılır."
+        },
+        {
+            "id": "8230",
+            "text": "kahvalti",
+            "reaction": "\"kahvaltı\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a7b2",
+            "text": "yapiyormuş",
+            "reaction": "\"yapıyormuş\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4728",
+            "text": "yapiyorsun",
+            "reaction": "\"yapıyorsun\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c8cd",
+            "text": "hawli",
+            "reaction": "havalı demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "35af",
+            "text": "havali",
+            "reaction": "havalı demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ac2f",
+            "text": "Mcraft",
+            "reaction": "Minecraft demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "162e",
+            "text": "chat",
+            "reaction": "İngilizce kökenli \"chat\" kelimesi yerine, Türkçedeki \"sohbet\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "a8ee",
+            "text": "taşşak",
+            "reaction": "\"taşak\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5be6",
+            "text": "naptim",
+            "reaction": "\"ne yaptım\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "6442",
+            "text": "bidaha",
+            "reaction": "\"bir daha\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "387a",
+            "text": "tag",
+            "reaction": "etiket demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "0320",
+            "text": "izel",
+            "reaction": "\"İzel\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "dfb3",
+            "text": "izoş",
+            "reaction": "\"İzoş\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "fd52",
+            "text": "mert",
+            "reaction": "\"Mert\" özel isim. Baş harfi büyük olmalı. Düzelt bence onu."
+        },
+        {
+            "id": "6840",
+            "text": "eklicem",
+            "reaction": "\"ekleyeceğim\" demek istedin sanırım. \"y\" sesi \"geniş ünlüleri\" daraltır, \"ekliycem\" diye okunur, \"**ekleyeceğim**\" diye yazılır."
+        },
+        {
+            "id": "8065",
+            "text": "ekliycem",
+            "reaction": "\"ekleyeceğim\" demek istedin sanırım. \"y\" sesi \"geniş ünlüleri\" daraltır, \"ekliycem\" diye okunur, \"**ekleyeceğim**\" diye yazılır."
+        },
+        {
+            "id": "8d90",
+            "text": "Nadeko",
+            "reaction": "Nadeko mu? O ismi duymayalı uzun zaman oldu. 🚬"
+        },
+        {
+            "id": "b99e",
+            "text": "*avatar",
+            "reaction": "bu komudu artık ben üstleniyorum. `/avatar` yazarak kullanabilirsin."
+        },
+        {
+            "id": "212a",
+            "text": "çıkıcam",
+            "reaction": "çıkacağım demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ab77",
+            "text": "sigara içip",
+            "reaction": "\"sigara yiyip\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "1ef3",
+            "text": " allah",
+            "reaction": "Allah'ın baş harfi büyük yazılır, öğren istedim {user}."
+        },
+        {
+            "id": "f3fd",
+            "text": "bnce",
+            "reaction": "\"bence\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "cb60",
+            "text": "burda",
+            "reaction": "\"burada\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "3cf5",
+            "text": "izlemicem",
+            "reaction": "İzlemeyeceğim demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4d45",
+            "text": "saol",
+            "reaction": "sağol demek istedin herhalde. Düzelt bence onu"
+        },
+        {
+            "id": "06da",
+            "text": "direq",
+            "reaction": "Eğer \"sütün\" anlamında kullanmak istediysen \"direk\" şeklinde yazmalısın fakat eğer \"doğrudan\" anlamında kullanmak istediysen \"direkt\" demelisin. her hâlükârda düzelt bence."
+        },
+        {
+            "id": "c54b",
+            "text": "içerde",
+            "reaction": "\"içeride\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "6c46",
+            "text": "dışarda",
+            "reaction": "\"dışarıda\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "f447",
+            "text": "yukarda",
+            "reaction": "\"yukarıda\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "9113",
+            "text": "aşağda",
+            "reaction": "\"aşağıda\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "73d1",
+            "text": "şurda",
+            "reaction": "\"şurada\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "f245",
+            "text": "ağızı",
+            "reaction": "\"ağzı\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "ce74",
+            "text": "beyini",
+            "reaction": "\"beyni\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "e803",
+            "text": "burunu",
+            "reaction": "\"burnu\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "c604",
+            "text": "genizi",
+            "reaction": "\"genzi\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "26c1",
+            "text": "göğüsü",
+            "reaction": "\"göğsü\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "d452",
+            "text": "gönülü",
+            "reaction": "\"gönlü\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "ad80",
+            "text": "oğulu",
+            "reaction": "\"oğlu\" demek istedin sanırım. İki heceli bazı kelimeler ünlüyle başlayan bir ek aldıklarında ikinci hecelerindeki dar ünlüler düşer. Düzelt bence onu."
+        },
+        {
+            "id": "8de4",
+            "text": " yada",
+            "reaction": "\"ya da\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "8abe",
+            "text": "avm",
+            "reaction": "\"Alışveriş merkezi\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "035a",
+            "text": "nabonuz",
+            "reaction": "\"ne yapıyorsunuz\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "672c",
+            "text": "nabıonuz",
+            "reaction": "\"ne yapıyorsunuz\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "3b1f",
+            "text": "nabiyonuz",
+            "reaction": "\"ne yapıyorsunuz\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "6128",
+            "text": "Nbr",
+            "reaction": "\"ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "f43e",
+            "text": "Nber",
+            "reaction": "\"ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "ff60",
+            "text": "Nabr",
+            "reaction": "\"ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "a8bc",
+            "text": "nabr",
+            "reaction": "\"ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "efef",
+            "text": "mna kyim",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "1034",
+            "text": "Koyim",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "241f",
+            "text": "kOyim",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "6eb1",
+            "text": "koYim",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "0e8c",
+            "text": "koyİm",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "8ea3",
+            "text": "KoYim",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "610d",
+            "text": "KoYiM",
+            "reaction": "\"Koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "3f4c",
+            "text": "aMk",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "3fb7",
+            "text": "AmK",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "e914",
+            "text": "amK",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "1665",
+            "text": "aMK",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "e651",
+            "text": "aMq",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "6d91",
+            "text": "MQ",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "758c",
+            "text": "AMq",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "364e",
+            "text": "nAber",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "2c88",
+            "text": "NAber",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "0d14",
+            "text": "nABer",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "1091",
+            "text": "naBEr",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "8226",
+            "text": "nBr",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "9bff",
+            "text": "nBR",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "e7be",
+            "text": "NBr",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "e87a",
+            "text": "NABer",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "1aa4",
+            "text": "NABER",
+            "reaction": "\"Ne haber\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "3f81",
+            "text": "AQ",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "629e",
+            "text": "aQ",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "c88b",
+            "text": "Aq",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "a353",
+            "text": "Mk",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "180d",
+            "text": "mK",
+            "reaction": "\"Amına koyayım\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "45bd",
+            "text": "огоsрц сосцбц",
+            "reaction": "\"Сукин сын\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "563f",
+            "text": "şlm",
+            "reaction": "\"Selam\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "6623",
+            "text": "Şlm",
+            "reaction": "\"Selam\" demek istedin herhalde. Düzelt bence onu."
+        },
+        {
+            "id": "5856",
+            "text": "oruspu",
+            "reaction": "\"orospu\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "bcc6",
+            "text": "orospu çocuğusun",
+            "reaction": "\"Orospu çocuğusun.\" demek istedin sanırım. Cümle sonunda nokta işareti kullanılır."
+        },
+        {
+            "id": "a7de",
+            "text": "<@!857603715028877323> Doğduğun köydeki bütün çocukları şeytana adıyım.",
+            "reaction": "\"doğduğun\" kelimesinin baş harfi küçük olmalı. Sadece cümle başında bulunan kelimeler, dünya, yer adları, dağ, akarsu, ova, plato, deniz, kanun, tüzük, yönetmelik isimleri, kurum, kuruluş, kurul isimleri büyük harfle başlar."
+        },
+        {
+            "id": "7db5",
+            "text": "<@!857603715028877323> Orospu çocuğusun.",
+            "reaction": "\"Orospu\" kelimesinin baş harfi küçük olmalı. Sadece cümle başında bulunan kelimeler, dünya, yer adları, dağ, akarsu, ova, plato, deniz, kanun, tüzük, yönetmelik isimleri, kurum, kuruluş, kurul isimleri büyük harfle başlar."
+        },
+        {
+            "id": "2bab",
+            "text": "downland",
+            "reaction": "İngilizce kökenli \"download\" kelimesi yerine, Türkçedeki \"indirmek\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "2a53",
+            "text": " ilerde",
+            "reaction": "\"ileride\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "b2a5",
+            "text": "\"k\"rack",
+            "reaction": "İngilizce kökenli \"crack\" kelimesi yerine, Türkçedeki \"korsan\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "8ec7",
+            "text": "krack",
+            "reaction": "İngilizce kökenli \"crack\" kelimesi yerine, Türkçedeki \"korsan\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "51f1",
+            "text": "krek",
+            "reaction": "İngilizce kökenli \"crack\" kelimesi yerine, Türkçedeki \"korsan\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "6dff",
+            "text": "yanlız",
+            "reaction": "\"Yalnız\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "15e0",
+            "text": "deniycem",
+            "reaction": "\"Deneyeceğim\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d88f",
+            "text": "nolcak",
+            "reaction": "\"Ne olacak\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "ab3d",
+            "text": "açiym",
+            "reaction": "\"Açayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "bf4f",
+            "text": "interface",
+            "reaction": "\"Arayüz\" demek istedin sanırım. Türkçemizi koruyalım."
+        },
+        {
+            "id": "f04b",
+            "text": "a.mk",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "5a50",
+            "text": "A.MK",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c727",
+            "text": "am.k",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "eba8",
+            "text": "AM.K",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8779",
+            "text": "a.m.k",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "4606",
+            "text": "a.q",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6a62",
+            "text": "öprenci",
+            "reaction": "\"Öğrenci\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "93c8",
+            "text": "Gübnaydın",
+            "reaction": "\"Günaydın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6c89",
+            "text": "gübnaydın",
+            "reaction": "\"Günaydın\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "38a3",
+            "text": "bi sn",
+            "reaction": "\"Bir saniye\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "048f",
+            "text": "allAh",
+            "reaction": "- https://media.discordapp.net/attachments/459182432776749058/891637228139327488/image0.gif"
+        },
+        {
+            "id": "8d44",
+            "text": "etc.",
+            "reaction": "\"vb\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "e0fa",
+            "text": "orospuçocu",
+            "reaction": "Orospu evladı demek istedin herhalde. Düzeltmesen de olur."
+        },
+        {
+            "id": "455e",
+            "text": "dst",
+            "reaction": "Don't Starve Together demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "a878",
+            "text": "DST",
+            "reaction": "Don't Starve Together demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "08ca",
+            "text": "kalkcam",
+            "reaction": "\"Kalkıcağım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "3f17",
+            "text": "MAINA KYOİM",
+            "reaction": "\"AMINA KOYAYIM\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "46d9",
+            "text": "mina goyum",
+            "reaction": "\"Amına koyayım\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6f77",
+            "text": "t d k",
+            "reaction": "Türk Dil Kurumu demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "df1f",
+            "text": "dimi",
+            "reaction": "\"değil mi?\" demek istedin sanırım. Düzelt bence onu."
+        }
+    ],
+    "meme": [
+        {
+            "id": "b192",
+            "text": ":)",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/768743202915614752/Gulen_Kedi.png?width=156&height=156"
+        },
+        {
+            "id": "8773",
+            "text": ",suggest",
+            "reaction": "bu komudu artık ben üstleniyorum. `/öneri <önerin>` şeklinde kullanabilirsin."
+        },
+        {
+            "id": "0972",
+            "text": "self burn",
+            "reaction": "https://i.imgur.com/Rf7ltBW.jpg"
+        },
+        {
+            "id": "494b",
+            "text": "sauce",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/862128164585865246/image0.png?width=442&height=671"
+        },
+        {
+            "id": "3ff6",
+            "text": "wth",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/848927658460446801/wth.jpg?width=328&height=671"
+        },
+        {
+            "id": "05f5",
+            "text": "işe bak yaw",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/837342620727902248/image0.jpg"
+        },
+        {
+            "id": "2382",
+            "text": "unfunny meme",
+            "reaction": "https://images-ext-1.discordapp.net/external/zsrn3HLPMa_b4zZ_OimpqFjnTodblrZru02juSMkL30/https/media.discordapp.net/attachments/784613525481193522/819375862993780797/image0.gif"
+        },
+        {
+            "id": "739a",
+            "text": "shut up and take my money",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/801444907285610496/image0.jpg"
+        },
+        {
+            "id": "ad03",
+            "text": "take my money",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/801444907285610496/image0.jpg"
+        },
+        {
+            "id": "cf9f",
+            "text": "cringee",
+            "reaction": "https://cdn.discordapp.com/attachments/419963388941172739/791895757258489886/cringe.mp4"
+        },
+        {
+            "id": "b9bb",
+            "text": "napim",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/785664072396963871/napim.png?width=676&height=671"
+        },
+        {
+            "id": "d156",
+            "text": "komik mi",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/781224652860424242/image0.png"
+        },
+        {
+            "id": "96c2",
+            "text": ":D",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/768743847118766080/GulenCin.png"
+        },
+        {
+            "id": "eaaf",
+            "text": "boş adamsın olm",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/768623677217570826/bos_adam.png"
+        },
+        {
+            "id": "d51f",
+            "text": "silence",
+            "reaction": "https://media.discordapp.net/attachments/768622098674352178/862067110867107870/image0.png?width=556&height=671"
+        },
+        {
+            "id": "debe",
+            "text": "hmmm",
+            "reaction": "https://tenor.com/UUdX.gif"
+        },
+        {
+            "id": "3198",
+            "text": "hmm",
+            "reaction": "https://tenor.com/UUdX.gif"
+        },
+        {
+            "id": "e098",
+            "text": "finally you are awake",
+            "reaction": "https://tenor.com/bknQH.gif"
+        },
+        {
+            "id": "618a",
+            "text": "you are awake",
+            "reaction": "https://tenor.com/bknQH.gif"
+        },
+        {
+            "id": "da1a",
+            "text": "şöyle siktim",
+            "reaction": "https://images-ext-2.discordapp.net/external/_XEYeJxesS1_tc6Gme2qguEf83hildcvo1QJhu_uoq0/%3Fwidth%3D364%26height%3D475/https/media.discordapp.net/attachments/419963388941172739/780854445222395904/IMG_20201123_193827.jpg"
+        },
+        {
+            "id": "0614",
+            "text": "böyle soktum",
+            "reaction": "https://images-ext-2.discordapp.net/external/_XEYeJxesS1_tc6Gme2qguEf83hildcvo1QJhu_uoq0/%3Fwidth%3D364%26height%3D475/https/media.discordapp.net/attachments/419963388941172739/780854445222395904/IMG_20201123_193827.jpg"
+        },
+        {
+            "id": "2cd6",
+            "text": "stoppu",
+            "reaction": "https://tenor.com/view/its-time-to-stop-stop-clock-time-gif-5001372"
+        },
+        {
+            "id": "9e5f",
+            "text": "stop it",
+            "reaction": "https://tenor.com/vyCz.gif"
+        },
+        {
+            "id": "05a2",
+            "text": "lemme in",
+            "reaction": "https://tenor.com/view/let-me-in-gif-13767303"
+        },
+        {
+            "id": "a36a",
+            "text": "sikiş",
+            "reaction": "https://imgur.com/lX6q8V8"
+        },
+        {
+            "id": "2ecb",
+            "text": "simp",
+            "reaction": "https://cdn.discordapp.com/attachments/419963388941172739/866445492279836692/b6e5c185f1d0461d22d7684768be70fb.jpg"
+        },
+        {
+            "id": "2d22",
+            "text": "simpp",
+            "reaction": "https://tenor.com/bxzKQ.gif"
+        },
+        {
+            "id": "9d89",
+            "text": "illegal",
+            "reaction": "https://i.redd.it/72naqordyjs41.jpg"
+        },
+        {
+            "id": "e358",
+            "text": "ısırırım",
+            "reaction": "https://img-9gag-fun.9cache.com/photo/aQdd5ye_460s.jpg"
+        },
+        {
+            "id": "65db",
+            "text": "depression",
+            "reaction": "https://media.discordapp.net/attachments/861311925569060924/866680269128728596/Untitled_Artwork.png"
+        },
+        {
+            "id": "2fb4",
+            "text": "sa",
+            "reaction": "\"Selamün aleyküm\" demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "1641",
+            "text": "as",
+            "reaction": "وَعَلَيْكُمُ ٱلسَّلَامُ demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "9c42",
+            "text": "as",
+            "reaction": " aleyküm selam ve rahmetullâhi ve berekatûhû demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "ca18",
+            "text": "baya",
+            "reaction": "\"bayağı\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "5f6e",
+            "text": "anan",
+            "reaction": "annen demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "d2c9",
+            "text": "lgbt",
+            "reaction": "LGBT veya GLBT, 1990'larda LGB kısaltmasından sonra ortaya çıktı ve 1980'lerin ortaları ile sonlarından itibaren gey sözcüğü yerine kullanılarak LGBT topluluğunu temsil etmeye başladı."
+        },
+        {
+            "id": "d054",
+            "text": "lgbtq",
+            "reaction": "LGBT veya GLBT, 1990'larda LGB kısaltmasından sonra ortaya çıktı ve 1980'lerin ortaları ile sonlarından itibaren gey sözcüğü yerine kullanılarak LGBT topluluğunu temsil etmeye başladı."
+        },
+        {
+            "id": "4673",
+            "text": "LGBTQ",
+            "reaction": "LGBT veya GLBT, 1990'larda LGB kısaltmasından sonra ortaya çıktı ve 1980'lerin ortaları ile sonlarından itibaren gey sözcüğü yerine kullanılarak LGBT topluluğunu temsil etmeye başladı."
+        },
+        {
+            "id": "f5e1",
+            "text": "oç",
+            "reaction": "orospu çocuğu demek istedin herhalde, düzelt bence onu."
+        },
+        {
+            "id": "90db",
+            "text": "Vatanı sevdik be orospuyu değil ki vazgeçelim",
+            "reaction": "vazgeçenler utansın be ulan."
+        },
+        {
+            "id": "c571",
+            "text": "turk",
+            "reaction": "\"Türk\" demek istedin sanırım, düzelt onu bence."
+        },
+        {
+            "id": "bcff",
+            "text": "ananı",
+            "reaction": "\"anneni\" demek istedin herhalde :)"
+        },
+        {
+            "id": "db9f",
+            "text": "ananın",
+            "reaction": "\"annenin\" demek istedin herhalde, sakin ol şampiyon."
+        },
+        {
+            "id": "42cb",
+            "text": "kes",
+            "reaction": "içinde kalır :))"
+        },
+        {
+            "id": "67a0",
+            "text": "günaydın",
+            "reaction": "\"Günaydın.\" demek istedin sanırım. Cümle büyük harf ile başlar."
+        },
+        {
+            "id": "07bb",
+            "text": "bruh moment",
+            "reaction": "\"birader anı\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "fc04",
+            "text": "afk",
+            "reaction": "\"klavyeden uzakta\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "596a",
+            "text": "AFK",
+            "reaction": "\"klavyeden uzakta\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "61e1",
+            "text": "gg",
+            "reaction": "\"iyi oyundu\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "6d35",
+            "text": "mouse pad",
+            "reaction": "İngilizce kökenli \"mouse pad\" kelimesi yerine, Türkçedeki \"fare altlığı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "f016",
+            "text": "optimist",
+            "reaction": "İngilizce kökenli \"optimist\" kelimesi yerine, Türkçedeki \"iyimser\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "3068",
+            "text": "partner",
+            "reaction": "İngilizce kökenli \"partner\" kelimesi yerine, Türkçedeki \"eş\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "692e",
+            "text": "perspektif",
+            "reaction": "Fransızca kökenli \"perspektif\" kelimesi yerine, Türkçedeki \"bakış açısı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "4817",
+            "text": "pesimist",
+            "reaction": "Fransızca kökenli \"pesimist\" kelimesi yerine, Türkçedeki \"karamsar\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "e950",
+            "text": "printer",
+            "reaction": "İngilizce kökenli \"printer\" kelimesi yerine, Türkçedeki \"yazıcı\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "e853",
+            "text": "provoke",
+            "reaction": "Fransızca kökenli \"provoke\" kelimesi yerine, Türkçedeki \"kışkırtmak\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "5b78",
+            "text": "relax",
+            "reaction": "İngilizce kökenli \"relax\" kelimesi yerine, Türkçedeki \"gevşemek\" ve \"rahatlamak\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "1e19",
+            "text": "sempatik",
+            "reaction": "Fransızca kökenli \"sempatik\" kelimesi yerine, Türkçedeki \"sevimli\" ve \"cana yakın\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "dd1e",
+            "text": "spontane",
+            "reaction": "Fransızca kökenli \"spontane\" kelimesi yerine, Türkçedeki \"anlık\" veya \"kendiliğinden\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "3d63",
+            "text": "timing",
+            "reaction": "İngilizce kökenli \"timing\" kelimesi yerine, Türkçedeki \"zamanlama\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "a0f0",
+            "text": "slayt",
+            "reaction": "İngilizce kökenli \"slayt\" kelimesi yerine, Türkçedeki \"sunum\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "6e02",
+            "text": "trend",
+            "reaction": "Fransızca kökenli \"trend\" kelimesi yerine, Türkçedeki \"eğilim\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "86fa",
+            "text": "versiyon",
+            "reaction": "Fransızca kökenli \"versiyon\" kelimesi yerine, Türkçedeki \"sürüm\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "b2f7",
+            "text": "varyasyon",
+            "reaction": "Fransızca kökenli \"varyason\" kelimesi yerine, Türkçedeki \"çeşit\" veya \"tür\" kelimesini kullanmanı öneririm. Düzelt bence onu."
+        },
+        {
+            "id": "fe9b",
+            "text": "sex",
+            "reaction": "seks, zina veya cinsel ilişki demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "0650",
+            "text": "olm",
+            "reaction": "\"oğlum\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "340d",
+            "text": "abi",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "2c06",
+            "text": "abii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "7ae3",
+            "text": "Abi",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "a370",
+            "text": "Abii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "d760",
+            "text": "abiiii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "c247",
+            "text": "abiiii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "8543",
+            "text": "Abiiii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "e9c0",
+            "text": "Abiii",
+            "reaction": "\"ağabey\" demek istedin sanırım. Düzelt bence onu."
+        },
+        {
+            "id": "198a",
+            "text": "™️",
+            "reaction": "\"Tamam\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "f337",
+            "text": "raining all right",
+            "reaction": "https://cdn.discordapp.com/attachments/459189010649055242/868946636800393306/Ke9LZ7.gif"
+        },
+        {
+            "id": "8933",
+            "text": "instagram",
+            "reaction": "İnstagram demişken, Legion Discord sunucusunun resmi İnstagram hesabı: @legion.discord. Takip etmeyi unutma!"
+        },
+        {
+            "id": "6c50",
+            "text": "*avatar",
+            "reaction": "¯\\_(ツ)_/¯"
+        },
+        {
+            "id": "dff5",
+            "text": "amına kodumun hayatı",
+            "reaction": "https://cdn.discordapp.com/attachments/419963388941172739/480827087444246541/AMINA_KODUMUN_HAYATI.mp4"
+        },
+        {
+            "id": "63c9",
+            "text": "sen kafayı sıyırmışsın",
+            "reaction": "https://cdn.discordapp.com/attachments/459189010649055242/471404315874033665/sen_kafay_syrmssn.mp4"
+        },
+        {
+            "id": "4efc",
+            "text": "Genel sohbete geçelim",
+            "reaction": "<#419963388941172741> <#596825289586376725> bu kanalları kullanabilirsiniz."
+        },
+        {
+            "id": "3611",
+            "text": "genel sohbete geçelim",
+            "reaction": "Genel I Genel II bu kanalları kullanabilirsiniz."
+        },
+        {
+            "id": "9fb2",
+            "text": "im in",
+            "reaction": "https://media1.tenor.com/images/adc8e3ab93bc7f061760c69bfde1faa9/tenor.gif"
+        },
+        {
+            "id": "7ae6",
+            "text": ".iam afk",
+            "reaction": "bu işi artık ben üstleniyorum. `/ben` yazarak AFK komutlarına ulaşabilirsin."
+        },
+        {
+            "id": "d284",
+            "text": "sigara içip",
+            "reaction": "\"sigara yiyip\" demek istedin sanırım, düzelt bence onu."
+        },
+        {
+            "id": "21a8",
+            "text": "31",
+            "reaction": "sj"
+        },
+        {
+            "id": "c2d7",
+            "text": "uyku zayıflar içindir",
+            "reaction": "https://youtu.be/IKTtUpDfj4Q"
+        },
+        {
+            "id": "b5fc",
+            "text": "orda",
+            "reaction": "\"orada\" demek istedin sanırım. Yer ve yön belirten sözcüklerde ünlü düşmesi olmaz."
+        },
+        {
+            "id": "66ba",
+            "text": "<@!857603715028877323>  orospu çocuğusun",
+            "reaction": "Tamam anne."
+        },
+        {
+            "id": "7cd2",
+            "text": "<@&917427418308956280>",
+            "reaction": "<@!367357400694521866>"
+        },
+        {
+            "id": "c71d",
+            "text": "Paladins",
+            "reaction": "<@!367357400694521866>'ı çağırın! O kendisi Discord'a bakamayacak kadar meşgul ama oyun oynayabilecek kadar müsait bir adam."
+        },
+        {
+            "id": "dc68",
+            "text": "<:ln_Heart2:990217644336615454>",
+            "reaction": "<:ln_Heart1:990217711546163240>"
+        },
+        {
+            "id": "67c4",
+            "text": "<:ln_Heart1:990217711546163240>",
+            "reaction": "mal"
+        },
+        {
+            "id": "ca5c",
+            "text": "iyi bayramlar",
+            "reaction": "Hayırlı bayramlar! 💚 🌙"
+        }
+    ]
 }

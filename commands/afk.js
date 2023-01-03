@@ -1,5 +1,3 @@
-const Util = require('../util')
-
 module.exports = {
     data: {
         name: "ben",
@@ -42,11 +40,6 @@ module.exports = {
     execute(interaction) {
         const situation = interaction.options.getString('durum')
 
-        if (interaction.member.id === '429269659582201856' || interaction.member.id === '367357400694521866') {
-            interaction.reply({content: '¯\\_(ツ)_/¯', allowedMentions: {repliedUser: true}})
-            return
-        }
-
         const member = interaction.member
         let role = ''
         switch (situation) {
@@ -54,19 +47,19 @@ module.exports = {
                 role = '465555266621145119'
                 break
             case 'Yemekte':
-                role = '772134471125172254'
+                role = '1013114060415434833'
                 break
             case 'Meşgul':
-                role = '774377758066606090'
+                role = '1013116388451303505'
                 break
             case 'Derste':
-                role = '770632739836657676'
+                role = '1013114184650731535'
                 break
             case 'Dışarıda':
-                role = '772134741209907221'
+                role = '1013115060811485255'
                 break
             case 'Küs':
-                role = '778258971265073192'
+                role = '1013115522101018704'
         }
         member.roles.add(role).then(async () => {
             interaction.reply({

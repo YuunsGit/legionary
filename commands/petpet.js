@@ -45,6 +45,6 @@ module.exports = {
         if (!memberObject) return
 
         memberObject.pets++
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }
 }

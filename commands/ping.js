@@ -2,13 +2,11 @@ module.exports = {
     data: {
         name: 'ping',
         description: 'Yunus\'un sunucu gecikmesini ölçmebilmesini sağlayan süper bir komut.',
-        default_permission: false
     },
     perms: [
         {
             id: '305044214239068162',
             type: 'USER',
-            permission: true
         }
     ],
     execute(interaction) {

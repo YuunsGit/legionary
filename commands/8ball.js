@@ -15,11 +15,6 @@ module.exports = {
         ]
     },
     execute(interaction) {
-        if (interaction.member.id === '429269659582201856' || interaction.member.id === '367357400694521866') {
-            interaction.reply({content: '¯\\_(ツ)_/¯', allowedMentions: {repliedUser: true}})
-            return
-        }
-
         const question = interaction.options.getString('soru')
         const answers = [
             'Kesinlikle.',
@@ -46,7 +41,7 @@ module.exports = {
             'Hiç sanmıyorum.'
         ]
         const answer = answers[Math.floor(Math.random() * answers.length)]
-        const attachment = new MessageAttachment('/root/legionary/images/8ball.png')
+        const attachment = new MessageAttachment('./images/8ball.png')
 
         if (talkedRecently.has(interaction.member.id)) {
             interaction.reply({
@@ -57,7 +52,10 @@ module.exports = {
         } else {
             const embed = new MessageEmbed()
                 .setThumbnail('attachment://8ball.png')
-                .setAuthor(`${interaction.user.username} Kullanısının 8Top Sonucu:`, interaction.user.displayAvatarURL({dynamic: true}))
+                .setAuthor({
+                    name: `${interaction.user.username} Kullanısının 8Top Sonucu:`,
+                    iconURL: interaction.user.displayAvatarURL({dynamic: true})
+                })
                 .setTitle(answer)
                 .setColor('#b752b7')
                 .setDescription(question)

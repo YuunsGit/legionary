@@ -2,7 +2,7 @@ module.exports = {
     name: 'messageCreate',
     execute(message) {
         if (message.author.bot) return
-        ['465555266621145119', '774377758066606090', '772134471125172254', '770632739836657676', '772134741209907221']
+        ['465555266621145119', '1013114184650731535', '1013114060415434833', '1013116388451303505', '1013115060811485255']
             .forEach(value => {
                 if (message.member.roles.cache.has(value)) {
                     message.member.roles.remove(value)

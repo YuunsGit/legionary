@@ -13,7 +13,6 @@ module.exports = {
     data: {
         name: 'eval',
         description: 'Yunus\'un efsanevi işlem monitörü.',
-        default_permission: false,
         options: [
             {
                 name: 'işlem',
@@ -27,7 +26,6 @@ module.exports = {
         {
             id: '305044214239068162',
             type: 'USER',
-            permission: true
         }
     ],
     async execute(interaction) {

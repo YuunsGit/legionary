@@ -9,11 +9,6 @@ module.exports = {
         type: 2
     },
     async execute(interaction) {
-        if (interaction.member.id === '429269659582201856' || interaction.member.id === '367357400694521866') {
-            interaction.reply({content: '¯\\_(ツ)_/¯', allowedMentions: {repliedUser: true}})
-            return
-        }
-
         if (interaction.member.id === interaction.targetId && !interaction.channel.nsfw) {
             interaction.reply({
                 content: `Kendini okşamak istiyorsan NSFW kanallarına gidebilirsin. ${Util.emoji('LN_wowowot', interaction.client)}`,
@@ -36,6 +31,6 @@ module.exports = {
         if (!memberObject) return
 
         memberObject.pets++
-        Util.saveFile('/root/legionary/members.json', members)
+        Util.saveFile('../members.json', members)
     }
 }

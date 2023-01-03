@@ -3,14 +3,14 @@ const config = require('../config.json')
 const logs = require('../logs.json')
 const cron = require('node-cron')
 const Util = require('../util')
-const fetch = require("node-fetch");
+const fetch = require('node-fetch')
 
 module.exports = client => {
     const emoji = name => {
         return client.emojis.cache.find(emoji => emoji.name === name)
     }
 
-    const dailyNight = new cron.schedule("00 15 19 * * *", async () => {
+    const dailyNight = new cron.schedule("00 00 19 * * *", async () => {
         const channel = client.channels.cache.get('419963388941172739')//419963388941172739
         const length = logs.daily.length
 
@@ -48,7 +48,10 @@ module.exports = client => {
 
         const embed = new MessageEmbed()
             .setTitle("İyi Akşamlar Legion! :night_with_stars:")
-            .setAuthor("Günlük Duyuru:", channel.guild.iconURL({dynamic: true}))
+            .setAuthor({
+                name: "Günlük Duyuru:",
+                iconURL: channel.guild.iconURL({dynamic: true})
+            })
             .setURL("https://tr.wikipedia.org/wiki/Vikipedi:Tarihte_bug%C3%BCn")
             .setColor("#b752b7")
             .setDescription(`${emoji("LN_pinned")} Bugün Legion'da tam **__${config.messages}__** adet mesaj atıldı.`)
@@ -89,16 +92,19 @@ module.exports = client => {
                     value: "[Ne olmuş bitmiş?](https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREY2Ym1OZkVnSjBjaWdBUAE?hl=tr&gl=TR&ceid=TR%3Atr)"
                 }
             )
-            .setFooter("Ekran başından uzaklaşırken /ben komudunu kullanabilirsin.", "https://i.imgur.com/5g9IJAq.png")
+            .setFooter({
+                text: "Ekran başından uzaklaşırken /ben komudunu kullanabilirsin.",
+                iconURL: "https://i.imgur.com/5g9IJAq.png"
+            })
             .setThumbnail("https://i.imgur.com/Uu3Ewir.gif")
         channel.send({embeds: [embed]})
 
         logs.daily = []
-        Util.saveFile('/root/legionary/logs.json', logs)
+        Util.saveFile('../logs.json', logs)
 
         config.messages = 0
         config.corona = dataObj
-        Util.saveFile('/root/legionary/config.json', config)
+        Util.saveFile('../config.json', config)
     }, {})
     dailyNight.start()
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c9b55216-4b5e-4f6a-b4de-54ce5e3869cd" name="Discord-Bot">
+        <fileTransfer rootFolder="/root/legionary" accessType="SFTP" host="161.35.222.161" port="22" sshConfigId="9c94ff68-e561-4a61-b1f1-453ddbeeee1f" sshConfig="root@161.35.222.161:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="100000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
