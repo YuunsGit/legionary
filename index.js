@@ -75,4 +75,4 @@ client.on("ready", async () => {
     console.log("The client is ready");
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
