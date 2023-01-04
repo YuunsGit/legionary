@@ -18,6 +18,7 @@
         "discord.js": "^13.6.0",
         "dotenv": "^16.0.3",
         "fs": "0.0.1-security",
+        "mongoose": "^6.8.2",
         "node-cron": "^3.0.0",
         "node-fetch": "^2.6.1",
         "openweather-apis": "^4.4.1",

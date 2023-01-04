@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'messageCreate',
+    name: "messageCreate",
     execute(message) {
-        if (message.author.bot || message.channel.id !== '869517460896907334') return
-        message.react('⏳')
-    }
-}
+        if (message.author.bot || message.channel.id !== "869517460896907334") return;
+        message.react("⏳");
+    },
+};

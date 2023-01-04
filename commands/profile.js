@@ -44,7 +44,7 @@ module.exports = {
 
         const pp = canvas.createCanvas(480, 270);
         const ctx = pp.getContext("2d");
-        const bg = await canvas.loadImage("../images/bg.png");
+        const bg = await canvas.loadImage(__dirname + "../images/bg.png");
         ctx.drawImage(bg, 0, 0, pp.width, pp.height);
         const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({ format: "jpg" }));
         ctx.beginPath();

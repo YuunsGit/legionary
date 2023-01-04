@@ -3,21 +3,5 @@
     "status": {
         "name": "Sizi",
         "type": 3
-    },
-    "corona": {
-        "date": "31/05/2022",
-        "totalTests": "",
-        "totalPatients": "",
-        "totalDeaths": "",
-        "totalIntensiveCare": "",
-        "totalIntubated": "",
-        "totalRecovered": "",
-        "tests": "128854",
-        "cases": "975",
-        "patients": "",
-        "critical": "",
-        "pneumoniaPercent": "%",
-        "deaths": "4",
-        "recovered": "946"
     }
 }

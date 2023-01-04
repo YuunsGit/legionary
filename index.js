@@ -14,6 +14,7 @@ const client = new Client({
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const rest = new REST({ version: "9" }).setToken(process.env.TOKEN);
+const mongoose = require("mongoose");
 
 client.commands = new Collection();
 commands = [];
@@ -34,6 +35,11 @@ client.on("ready", async () => {
         if (command.data.constructor === {}.constructor) commands.push(command.data);
         else commands.push(command.data.toJSON());
     }
+
+    await mongoose
+        .connect(process.env.MONGODB_URI)
+        .then(() => console.log("MongoDB connected"))
+        .catch((err) => console.log(err));
 
     await client.guilds.cache
         .get("419963388941172737")
