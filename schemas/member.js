@@ -7,7 +7,7 @@ const memberSchema = new Schema({
     lp: Number,
     penalties: Number,
     typo: Number,
-    description: Number,
+    description: String,
     pets: Number,
     bday: String,
     daily: Boolean,

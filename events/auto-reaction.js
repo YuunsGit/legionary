@@ -4,12 +4,13 @@ const Util = require("../util");
 
 module.exports = {
     name: "messageCreate",
-    execute(message) {
+    async execute(message) {
         if (message.author.id === "429269659582201856" || message.author.id === "367357400694521866") {
             return;
         }
         if (message.channel.id === "472856433797627914") return;
         if (message.author.bot || !message.mentions.members || message.channel.id === "460483132508995584") return;
+
         for (const one of reactions.meme) {
             if (message.content === one.text) {
                 message.reply({
@@ -29,10 +30,10 @@ module.exports = {
                 reactionMsg =
                     reactionMsg + "\n" + Util.capitalize(one.reaction.replace("{user}", message.author.toString()));
 
-                const memberObject = Util.getMember(message.author.id);
+                const memberObject = await Util.getMember(message.author.id);
                 memberObject.typo++;
-                memberObject.lp -= 3;
-                Util.saveFile("../members.json", members);
+                memberObject.lp = Math.max(memberObject.lp - 3, 0);
+                await memberObject.save();
             }
         }
         if (reactionMsg === "") return;

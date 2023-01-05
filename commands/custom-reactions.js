@@ -1,6 +1,6 @@
-const Util = require('../util')
-const reactions = require('../reactions.json')
-const {MessageEmbed, MessageButton, MessageActionRow} = require('discord.js')
+const Util = require("../util");
+const reactions = require("../schemas/reaction");
+const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
 
 module.exports = {
     data: {
@@ -15,13 +15,13 @@ module.exports = {
                 choices: [
                     {
                         name: "Yazım yanlışı",
-                        value: "typo"
+                        value: "typo",
                     },
                     {
                         name: "Mizah",
-                        value: "meme"
-                    }
-                ]
+                        value: "meme",
+                    },
+                ],
             },
             {
                 type: 3,
@@ -31,231 +31,242 @@ module.exports = {
                 choices: [
                     {
                         name: "Listele",
-                        value: "liste"
+                        value: "liste",
                     },
                     {
                         name: "Sil",
-                        value: "sil"
+                        value: "sil",
                     },
                     {
                         name: "Ekle",
-                        value: "ekle"
+                        value: "ekle",
                     },
                     {
                         name: "Düzenle",
-                        value: "düzenle"
-                    }
-                ]
+                        value: "düzenle",
+                    },
+                ],
             },
             {
                 type: 3,
                 name: "tetikleyici",
                 description: "Tepkinin tetikleyicisi nedir? Tepki düzenlenecek veya silinecekse ID'si de yazılabilir.",
-                required: false
+                required: false,
             },
             {
                 type: 3,
                 name: "tepki",
                 description: "İşlem yapılacak tepki nedir?",
-                required: false
-            }
-        ]
+                required: false,
+            },
+        ],
     },
     perms: [
         {
-            id: '876461729956126730',
-            type: 'ROLE',
-        }
+            id: "876461729956126730",
+            type: "ROLE",
+        },
     ],
     async execute(interaction) {
-        const genre = interaction.options.getString('türü')
-        const action = interaction.options.getString('işlem')
-        const trigger = interaction.options.getString('tetikleyici')
-        const reaction = interaction.options.getString('tepki')
+        const genre = interaction.options.getString("türü");
+        const action = interaction.options.getString("işlem");
+        const trigger = interaction.options.getString("tetikleyici");
+        const reaction = interaction.options.getString("tepki");
 
-        if (!interaction.member.roles.cache.has('876461729956126730')) {
+        if (!interaction.member.roles.cache.has("876461729956126730")) {
             interaction.reply({
-                content: `Bunu yapabilmek için gereken yetkiye sahip değilsin. ${Util.emoji('ln_pepezoom', interaction.client)}`,
+                content: `Bunu yapabilmek için gereken yetkiye sahip değilsin. ${Util.emoji(
+                    "ln_pepezoom",
+                    interaction.client
+                )}`,
                 ephemeral: true,
-                allowedMentions: {repliedUser: true}
-            })
-            return
+                allowedMentions: { repliedUser: true },
+            });
+            return;
         }
 
         switch (action) {
-            case 'liste':
-                if (reactions[genre].length <= 0) {
+            case "liste":
+                const customReactions = await reactions.find({ rtype: genre });
+                if (customReactions.length <= 0) {
                     interaction.reply({
-                        content: `Henüz hiç tepki eklenmemiş. ${Util.emoji('ln_pepezoom', interaction.client)}`,
-                        allowedMentions: {repliedUser: true}
-                    })
-                    return
+                        content: `Henüz hiç tepki eklenmemiş. ${Util.emoji("ln_pepezoom", interaction.client)}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                    return;
                 }
-                let list = ''
-                let listPages = []
-                const pageCount = Math.ceil(reactions[genre].length / 15)
-                let x = 1
-                for (const one of reactions[genre]) {
-                    list = list + '\n` ' + one.id + ' ` ' + one.text
-                    if (x % 15 === 0 || x === reactions[genre].length) {
+                let list = "";
+                let listPages = [];
+                const pageCount = Math.ceil(customReactions.length / 15);
+                let x = 1;
+                for (const one of customReactions) {
+                    list = list + "\n` " + one.id + " ` " + one.text;
+                    if (x % 15 === 0 || x === customReactions.length) {
                         const embed = new MessageEmbed()
-                            .setTitle(Util.capitalize(genre) + ' Tepki Listesi:')
+                            .setTitle(Util.capitalize(genre) + " Tepki Listesi:")
                             .setColor("#b752b7")
                             .setDescription(list)
-                            .setFooter(Math.ceil(x / 15) + ' / ' + pageCount)
-                            .setThumbnail('https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png')
-                        listPages.push(embed)
-                        list = ''
+                            .setFooter(Math.ceil(x / 15) + " / " + pageCount)
+                            .setThumbnail(
+                                "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png"
+                            );
+                        listPages.push(embed);
+                        list = "";
                     }
-                    x++
+                    x++;
                 }
-                const row = new MessageActionRow()
-                    .addComponents(
-                        new MessageButton()
-                            .setStyle('SUCCESS')
-                            .setLabel('Önceki Sayfa')
-                            .setCustomId('left'),
-                        new MessageButton()
-                            .setStyle('SUCCESS')
-                            .setLabel('Sonraki Sayfa')
-                            .setCustomId('right')
-                    )
+                const row = new MessageActionRow().addComponents(
+                    new MessageButton().setStyle("SUCCESS").setLabel("Önceki Sayfa").setCustomId("left"),
+                    new MessageButton().setStyle("SUCCESS").setLabel("Sonraki Sayfa").setCustomId("right")
+                );
                 const sentEmbed = await interaction.reply({
                     embeds: [listPages[0]],
                     components: [row],
                     fetchReply: true,
-                    allowedMentions: {repliedUser: true}
-                })
+                    allowedMentions: { repliedUser: true },
+                });
                 const collector = await sentEmbed.createMessageComponentCollector({
-                    componentType: 'BUTTON',
-                    time: 60000
-                })
+                    componentType: "BUTTON",
+                    time: 60000,
+                });
 
-                collector.on('collect', i => {
+                collector.on("collect", (i) => {
                     if (i.user.id === interaction.user.id) {
-                        const page = parseInt(sentEmbed.embeds[0].footer.text.split(' ')[0]) - 1
+                        const page = parseInt(sentEmbed.embeds[0].footer.text.split(" ")[0]) - 1;
                         switch (i.customId) {
-                            case 'right':
-                                if ((page + 1) > (listPages.length - 1)) {
+                            case "right":
+                                if (page + 1 > listPages.length - 1) {
                                     interaction.editReply({
                                         embeds: [listPages[0]],
-                                        allowedMentions: {repliedUser: true}
-                                    })
-                                    break
+                                        allowedMentions: { repliedUser: true },
+                                    });
+                                    break;
                                 }
                                 interaction.editReply({
                                     embeds: [listPages[page + 1]],
-                                    allowedMentions: {repliedUser: true}
-                                })
-                                break
-                            case 'left':
-                                if ((page - 1) < 0) {
+                                    allowedMentions: { repliedUser: true },
+                                });
+                                break;
+                            case "left":
+                                if (page - 1 < 0) {
                                     interaction.editReply({
                                         embeds: [listPages[listPages.length - 1]],
-                                        allowedMentions: {repliedUser: true}
-                                    })
-                                    break
+                                        allowedMentions: { repliedUser: true },
+                                    });
+                                    break;
                                 }
                                 interaction.editReply({
                                     embeds: [listPages[page - 1]],
-                                    allowedMentions: {repliedUser: true}
-                                })
+                                    allowedMentions: { repliedUser: true },
+                                });
                         }
                     } else {
                         i.reply({
-                            content: 'Bu sayfa senin için değil.',
+                            content: "Bu sayfa senin için değil.",
                             ephemeral: true,
-                            allowedMentions: {repliedUser: true}
-                        })
+                            allowedMentions: { repliedUser: true },
+                        });
                     }
-                    i.deferUpdate()
-                })
-                break
+                    i.deferUpdate();
+                });
+                break;
 
-            case 'sil':
+            case "sil":
                 if (!trigger) {
                     interaction.reply({
-                        content: `Silmek istediğin tepkinin tetikleyicisini veya ID\'sini girmelisin. ${Util.emoji('ln_pepezoom', interaction.client)}`,
+                        content: `Silmek istediğin tepkinin tetikleyicisini veya ID\'sini girmelisin. ${Util.emoji(
+                            "ln_pepezoom",
+                            interaction.client
+                        )}`,
                         ephemeral: true,
-                        allowedMentions: {repliedUser: true}
-                    })
-                    return
+                        allowedMentions: { repliedUser: true },
+                    });
+                    return;
                 }
-                let a = 0
-                for (const one of reactions[genre]) {
-                    if ([one.id, one.text].includes(trigger)) {
-                        reactions[genre].splice(a, 1)
-                        interaction.reply({
-                            content: `Tepki silindi. ${Util.emoji('ln_pepeok', interaction.client)}`,
-                            allowedMentions: {repliedUser: true}
-                        })
-                        Util.saveFile('../reactions.json', reactions)
-                        return
-                    }
-                    a++
-                }
-                interaction.reply({
-                    content: `Bu ID veya isme sahip bir tepki bulunamadı. ${Util.emoji('ln_pepezoom', interaction.client)}`,
-                    allowedMentions: {repliedUser: true}
-                })
-                break
 
-            case 'düzenle':
+                const toRemove = await reactions.deleteOne({ $or: [{ id: trigger }, { text: trigger }] });
+                if (toRemove.deletedCount == 0) {
+                    interaction.reply({
+                        content: `Bu ID veya isme sahip bir tepki bulunamadı. ${Util.emoji(
+                            "ln_pepezoom",
+                            interaction.client
+                        )}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                } else {
+                    interaction.reply({
+                        content: `Tepki silindi. ${Util.emoji("ln_pepeok", interaction.client)}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                }
+
+                break;
+
+            case "düzenle":
                 if (!trigger || !reaction) {
                     interaction.reply({
-                        content: `Düzenlemek istediğin tepkinin tetikleyicisini ve yeni tepkiyi girmelisin. ${Util.emoji('ln_pepezoom', interaction.client)}`,
+                        content: `Düzenlemek istediğin tepkinin tetikleyicisini ve yeni tepkiyi girmelisin. ${Util.emoji(
+                            "ln_pepezoom",
+                            interaction.client
+                        )}`,
                         ephemeral: true,
-                        allowedMentions: {repliedUser: true}
-                    })
-                    return
+                        allowedMentions: { repliedUser: true },
+                    });
+                    return;
                 }
-                for (const one of reactions[genre]) {
-                    if ([one.id, one.text].includes(trigger)) {
-                        one.reaction = reaction
-                        interaction.reply({
-                            content: `Tepki düzenlendi. ${Util.emoji('ln_pepeok', interaction.client)}`,
-                            allowedMentions: {repliedUser: true}
-                        })
-                        return
-                    }
-                }
-                interaction.reply({
-                    content: `Bu ID veya isme sahip bir tepki bulunamadı. ${Util.emoji('ln_pepezoom', interaction.client)}`,
-                    allowedMentions: {repliedUser: true}
-                })
-                break
 
-            case 'ekle':
+                const toEdit = await reactions.findOne({ $or: [{ id: trigger }, { text: trigger }] });
+                if (!toEdit) {
+                    interaction.reply({
+                        content: `Bu ID veya isme sahip bir tepki bulunamadı. ${Util.emoji(
+                            "ln_pepezoom",
+                            interaction.client
+                        )}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                } else {
+                    toEdit.reaction = reaction;
+                    await toEdit.save();
+                    interaction.reply({
+                        content: `Tepki düzenlendi. ${Util.emoji("ln_pepeok", interaction.client)}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                }
+                break;
+
+            case "ekle":
                 if (!trigger || !reaction) {
                     interaction.reply({
-                        content: `Eklemek istediğin tepkiyi ve tetikliyicisini girmelisin. ${Util.emoji('ln_pepezoom', interaction.client)}`,
+                        content: `Eklemek istediğin tepkiyi ve tetikliyicisini girmelisin. ${Util.emoji(
+                            "ln_pepezoom",
+                            interaction.client
+                        )}`,
                         ephemeral: true,
-                        allowedMentions: {repliedUser: true}
-                    })
-                    return
+                        allowedMentions: { repliedUser: true },
+                    });
+                    return;
                 }
-                for (const one of reactions[genre]) {
-                    if ([one.text].includes(trigger)) {
-                        interaction.reply({
-                            content: `Zaten böyle bir tepki var. ${Util.emoji('ln_pepezoom', interaction.client)}`,
-                            allowedMentions: {repliedUser: true}
-                        })
-                        return
-                    }
+
+                const oldReaction = await reactions.findOne({ text: trigger });
+                if (oldReaction) {
+                    interaction.reply({
+                        content: `Zaten böyle bir tepki var. ${Util.emoji("ln_pepezoom", interaction.client)}`,
+                        allowedMentions: { repliedUser: true },
+                    });
+                    return;
+                } else {
+                    const toAdd = new reactions({
+                        id: Util.generateID(),
+                        text: trigger.toString(),
+                        reaction: reaction.toString(),
+                        rtype: genre,
+                    });
+                    await toAdd.save();
+                    interaction.reply({
+                        content: `Tepki listesi güncellendi. ${Util.emoji("ln_pepeok", interaction.client)}`,
+                        allowedMentions: { repliedUser: true },
+                    });
                 }
-                const newReaction = {
-                    "id": Util.generateID(),
-                    "text": trigger.toString(),
-                    "reaction": reaction.toString()
-                }
-                reactions[genre].push(newReaction)
-                interaction.reply({
-                    content: `Tepki listesi güncellendi. ${Util.emoji('ln_pepeok', interaction.client)}`,
-                    allowedMentions: {repliedUser: true}
-                })
         }
-
-        Util.saveFile('../reactions.json', reactions)
-    }
-}
-
+    },
+};

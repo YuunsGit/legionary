@@ -5,7 +5,7 @@ const reactionSchema = new Schema({
     id: String,
     text: String,
     reaction: String,
-    type: String,
+    rtype: String,
 });
 
 const reaction = mongoose.model("reaction", reactionSchema);

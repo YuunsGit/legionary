@@ -1,5 +1,5 @@
 const { writeFileSync } = require("fs");
-const Member = require("/schemas/member");
+const Member = require("./schemas/member");
 
 module.exports = class Util {
     static generateID = () => {
@@ -29,8 +29,10 @@ module.exports = class Util {
     };
 
     static getMember = async (id) => {
-        console.log(Member.find({ id: id }));
-        if (!Member.find({ id: id })) {
+        const memberObject = await Member.findOne({ id: id });
+
+        // Create new member if not exists
+        if (!memberObject) {
             const member = new Member({
                 id: id,
                 messages: 0,
@@ -43,14 +45,7 @@ module.exports = class Util {
                 daily: true,
                 links: [],
             });
-            member.save();
-        }
-
-        let memberObject = {};
-        for (const one of members.members) {
-            if (one.id === id) {
-                memberObject = one;
-            }
+            await member.save();
         }
         return memberObject;
     };

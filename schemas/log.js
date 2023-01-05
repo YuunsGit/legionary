@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const logSchema = new Schema({
-    type: String,
+    ltype: String,
     id: String,
     log: String,
     logger: String,

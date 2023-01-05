@@ -31,20 +31,20 @@ module.exports = {
         }
 
         const user = interaction.options.getUser("kullanıcı");
-        let memberObject = Util.getMember(interaction.member.id);
+        let memberObject = await Util.getMember(interaction.member.id);
         if (user) {
             if (interaction.options.getUser("kullanıcı").bot) {
                 interaction.reply({ content: `Bu bir bot. ${Util.emoji("LN_Pepestare", interaction.guild)}` });
                 return;
             }
-            memberObject = Util.getMember(user.id);
+            memberObject = await Util.getMember(user.id);
         }
 
         const guildMember = await interaction.guild.members.fetch(memberObject.id);
 
         const pp = canvas.createCanvas(480, 270);
         const ctx = pp.getContext("2d");
-        const bg = await canvas.loadImage(__dirname + "../images/bg.png");
+        const bg = await canvas.loadImage("./images/bg.png");
         ctx.drawImage(bg, 0, 0, pp.width, pp.height);
         const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({ format: "jpg" }));
         ctx.beginPath();

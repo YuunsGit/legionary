@@ -13,15 +13,18 @@
         "@discordjs/builders": "^0.5.0",
         "@discordjs/rest": "^0.1.0-canary.0",
         "bing-translate-api": "^2.6.0",
+        "browserless": "^9.8.0",
         "canvas": "^2.11.0",
         "discord-api-types": "^0.22.0",
         "discord.js": "^13.6.0",
         "dotenv": "^16.0.3",
         "fs": "0.0.1-security",
+        "html-get": "^2.9.28",
         "mongoose": "^6.8.2",
         "node-cron": "^3.0.0",
         "node-fetch": "^2.6.1",
         "openweather-apis": "^4.4.1",
-        "pet-pet-gif": "^1.0.8"
+        "pet-pet-gif": "^1.0.8",
+        "puppeteer": "^19.4.1"
     }
 }

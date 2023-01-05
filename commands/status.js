@@ -1,5 +1,5 @@
-const config = require('../config.json')
-const Util = require('../util')
+const config = require("../schemas/config");
+const Util = require("../util");
 
 module.exports = {
     data: {
@@ -10,7 +10,7 @@ module.exports = {
                 type: 3,
                 name: "durum",
                 description: "Ayarlanacak durumun açıklaması nedir?",
-                required: true
+                required: true,
             },
             {
                 type: 4,
@@ -20,55 +20,60 @@ module.exports = {
                 choices: [
                     {
                         name: "Oynuyor",
-                        value: 0
+                        value: 0,
                     },
                     {
                         name: "Yayınlıyor",
-                        value: 1
+                        value: 1,
                     },
                     {
                         name: "Dinliyor",
-                        value: 2
+                        value: 2,
                     },
                     {
                         name: "İzliyor",
-                        value: 3
+                        value: 3,
                     },
                     {
                         name: "Custom",
-                        value: 4
+                        value: 4,
                     },
                     {
                         name: "Yarışıyor",
-                        value: 5
-                    }
-                ]
-            }
-        ]
+                        value: 5,
+                    },
+                ],
+            },
+        ],
     },
     perms: [
         {
-            id: '305044214239068162',
-            type: 'USER',
-        }
+            id: "305044214239068162",
+            type: "USER",
+        },
     ],
     async execute(interaction) {
-        const status = interaction.options.getString('durum')
-        const type = interaction.options.getInteger('türü')
+        const status = interaction.options.getString("durum");
+        const type = interaction.options.getInteger("türü");
 
+        // Change presence (status) of the bot
         await interaction.client.user.setPresence({
-            activities: [{
-                name: status,
-                type: type
-            }]
-        })
+            activities: [
+                {
+                    name: status,
+                    type: type,
+                },
+            ],
+        });
 
-        config.status = {
+        // Store status data in config
+        configObject = await config.findOne();
+        configObject.status = {
             name: status,
-            type: type
-        }
+            action: type,
+        };
+        await configObject.save();
 
-        await Util.saveFile('../config.json', config)
-        interaction.reply(`Durum başarıyla güncellendi. ${Util.emoji('ln_pepeok', interaction.client)}`)
-    }
-}
+        interaction.reply(`Durum başarıyla güncellendi. ${Util.emoji("ln_pepeok", interaction.client)}`);
+    },
+};

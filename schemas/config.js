@@ -2,10 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const configSchema = new Schema({
-    messages: String,
+    messages: Number,
     status: {
         name: String,
-        type: Number,
+        action: Number,
     },
 });
 
