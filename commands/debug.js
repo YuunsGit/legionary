@@ -12,8 +12,6 @@ const Reaction = require("../schemas/reaction");
 const Member = require("../schemas/member");
 const Log = require("../schemas/log");
 const fetch = require("node-fetch");
-const createBrowserless = require("browserless");
-const getHTML = require("html-get");
 
 module.exports = {
     data: {
@@ -33,24 +31,5 @@ module.exports = {
             type: "USER",
         },
     ],
-    async execute(interaction) {
-        const getContent = async (url) => {
-            // create a browser context inside Chromium process
-            const browserContext = browserlessFactory.createContext();
-            const getBrowserless = () => browserContext;
-            const result = await getHTML(url, { getBrowserless });
-            // close the browser context after it's used
-            await getBrowserless((browser) => browser.destroyContext());
-            return result;
-        };
-        getContent("https://example.com")
-            .then((content) => {
-                console.log(content);
-                process.exit();
-            })
-            .catch((error) => {
-                console.error(error);
-                process.exit(1);
-            });
-    },
+    async execute(interaction) {},
 };
