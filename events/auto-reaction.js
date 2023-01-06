@@ -5,6 +5,7 @@ const Util = require("../util");
 module.exports = {
     name: "messageCreate",
     async execute(message) {
+        return;
         if (message.author.id === "429269659582201856" || message.author.id === "367357400694521866") {
             return;
         }
