@@ -10,10 +10,10 @@ module.exports = {
         if (["472856433797627914", "460483132508995584"].includes(message.channel.id)) return;
         if (message.author.bot || !message.mentions.members) return;
 
-        const memeReactions = await reactions.findOne({ rtype: "meme", text: message.content });
-        if (!memeReactions) {
+        const memeReaction = await reactions.findOne({ rtype: "meme", text: message.content });
+        if (memeReaction) {
             message.reply({
-                content: meme.reaction.replace("{user}", message.author.toString()),
+                content: memeReaction.reaction.replace("{user}", message.author.toString()),
                 allowedMentions: { repliedUser: true },
             });
             return;
@@ -22,7 +22,7 @@ module.exports = {
         const typoReactions = await reactions.find({ rtype: "typo" });
 
         let reactionMsg = "";
-        for (const typo of reactions.typo) {
+        for (const typo of typoReactions) {
             if (
                 message.content.includes(`${typo.text} `) ||
                 message.content.includes(` ${typo.text}`) ||

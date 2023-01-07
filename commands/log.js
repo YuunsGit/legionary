@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const logs = require("../logs.json");
+const logs = require("../schemas/log");
 const Util = require("../util");
 
 module.exports = {

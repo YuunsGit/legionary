@@ -1,14 +1,18 @@
-const cron = require('node-cron')
-const members = require('../members.json')
-const Util = require('../util')
+const cron = require("node-cron");
+const members = require("../schemas/member");
 
 module.exports = () => {
-    const reloadDaily = new cron.schedule("00 00 21 * * *", () => {
-        for (const one of members.members) {
-            one.daily = true
-        }
-        Util.saveFile('../members.json', members)
-    }, {})
+    const reloadDaily = new cron.schedule(
+        "00 00 21 * * *",
+        async () => {
+            const lgnMembers = await members.find();
+            lgnMembers.forEach(async (member) => {
+                member.daily = true;
+                await member.save();
+            });
+        },
+        {}
+    );
 
-    reloadDaily.start()
-}
+    reloadDaily.start();
+};

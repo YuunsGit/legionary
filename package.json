@@ -10,6 +10,7 @@
     "author": "Yuuns",
     "license": "ISC",
     "dependencies": {
+        "@cicciosgamino/openweather-apis": "^5.2.0",
         "@discordjs/builders": "^0.5.0",
         "@discordjs/rest": "^0.1.0-canary.0",
         "bing-translate-api": "^2.6.0",
