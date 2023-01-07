@@ -1,35 +1,35 @@
-const reactions = require("../reactions.json");
-const members = require("../members.json");
+const reactions = require("../schemas/reaction");
 const Util = require("../util");
 
 module.exports = {
     name: "messageCreate",
     async execute(message) {
-        return;
         if (message.author.id === "429269659582201856" || message.author.id === "367357400694521866") {
             return;
         }
-        if (message.channel.id === "472856433797627914") return;
-        if (message.author.bot || !message.mentions.members || message.channel.id === "460483132508995584") return;
+        if (["472856433797627914", "460483132508995584"].includes(message.channel.id)) return;
+        if (message.author.bot || !message.mentions.members) return;
 
-        for (const one of reactions.meme) {
-            if (message.content === one.text) {
-                message.reply({
-                    content: one.reaction.replace("{user}", message.author.toString()),
-                    allowedMentions: { repliedUser: true },
-                });
-                return;
-            }
+        const memeReactions = await reactions.findOne({ rtype: "meme", text: message.content });
+        if (!memeReactions) {
+            message.reply({
+                content: meme.reaction.replace("{user}", message.author.toString()),
+                allowedMentions: { repliedUser: true },
+            });
+            return;
         }
+
+        const typoReactions = await reactions.find({ rtype: "typo" });
+
         let reactionMsg = "";
-        for (const one of reactions.typo) {
+        for (const typo of reactions.typo) {
             if (
-                message.content.includes(`${one.text} `) ||
-                message.content.includes(` ${one.text}`) ||
-                message.content === one.text
+                message.content.includes(`${typo.text} `) ||
+                message.content.includes(` ${typo.text}`) ||
+                message.content === typo.text
             ) {
                 reactionMsg =
-                    reactionMsg + "\n" + Util.capitalize(one.reaction.replace("{user}", message.author.toString()));
+                    reactionMsg + "\n" + Util.capitalize(typo.reaction.replace("{user}", message.author.toString()));
 
                 const memberObject = await Util.getMember(message.author.id);
                 memberObject.typo++;
