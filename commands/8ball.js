@@ -65,7 +65,7 @@ module.exports = {
             talkedRecently.add(interaction.member.id);
             setTimeout(() => {
                 talkedRecently.delete(interaction.member.id);
-            }, 60000);
+            }, 15000);
         }
     },
 };
