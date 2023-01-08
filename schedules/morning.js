@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 
 module.exports = (client) => {
     const dailyMorning = new cron.schedule(
-        "00 00 06 * * *",
+        "00 30 07 * * *",
         async () => {
             const channel = client.channels.cache.get("419963388941172739");
 
