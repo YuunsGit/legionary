@@ -97,7 +97,7 @@ module.exports = {
         ctx.drawImage(avatar, 0, 457, 170, 170);
         ctx.drawImage(avatar2, 940, 457, 170, 170);
         ctx.drawImage(frames, 0, 0, img.width, img.height);
-        registerFont("../images/Minecraft.ttf", { family: "Minecraft" });
+        registerFont(`${__dirname}/../images/Minecraft.ttf`, { family: "Minecraft" });
 
         const requestImg = canvas.createCanvas(1104, 621);
         const requestCtx = requestImg.getContext("2d");
