@@ -87,6 +87,8 @@ module.exports = {
             return;
         }
 
+        console.log(__dirname);
+
         const img = canvas.createCanvas(1104, 621);
         const ctx = img.getContext("2d");
         const bg = await canvas.loadImage(`${__dirname}/../images/duel/bg/bg${Math.floor(Math.random() * 10 + 1)}.png`);
