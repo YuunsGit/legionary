@@ -87,8 +87,6 @@ module.exports = {
             return;
         }
 
-        console.log(__dirname);
-
         const img = canvas.createCanvas(1104, 621);
         const ctx = img.getContext("2d");
         const bg = await canvas.loadImage(`${__dirname}/../images/duel/bg/bg${Math.floor(Math.random() * 10 + 1)}.png`);
@@ -99,7 +97,7 @@ module.exports = {
         ctx.drawImage(avatar, 0, 457, 170, 170);
         ctx.drawImage(avatar2, 940, 457, 170, 170);
         ctx.drawImage(frames, 0, 0, img.width, img.height);
-        registerFont("../legionary/images/Minecraft.ttf", { family: "Minecraft" });
+        registerFont("../images/Minecraft.ttf", { family: "Minecraft" });
 
         const requestImg = canvas.createCanvas(1104, 621);
         const requestCtx = requestImg.getContext("2d");
