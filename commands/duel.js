@@ -184,7 +184,7 @@ module.exports = {
 
                     const fight = await interaction.channel.createMessageCollector({
                         filter: (m) => !isNaN(m.content),
-                        time: 10 * 60 * 1000,
+                        time: 60 * 1000,
                     });
 
                     fight.on("collect", async (m) => {
@@ -198,6 +198,7 @@ module.exports = {
                         if (players[turn].id === m.member.id) {
                             if (estm <= min || estm >= max) return;
 
+                            fight.resetTimer();
                             await m.react(Util.emoji("devload", interaction.client));
 
                             if (estm < number) {
@@ -351,8 +352,8 @@ module.exports = {
                     embeds: [],
                     components: [],
                 });
-                await sentEmbed.removeAttachments();
             }
+            await sentEmbed.removeAttachments();
         });
     },
 };
