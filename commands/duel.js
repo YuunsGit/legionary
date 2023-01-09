@@ -46,8 +46,8 @@ module.exports = {
             return;
         }
 
-        const memberObjectSelf = Util.getMember(interaction.member.id);
-        const memberObject = Util.getMember(user.id);
+        const memberObjectSelf = await Util.getMember(interaction.member.id);
+        const memberObject = await Util.getMember(user.id);
 
         if (memberObjectSelf.lp < bet) {
             interaction.reply({
@@ -68,10 +68,10 @@ module.exports = {
 
         const img = canvas.createCanvas(1800, 750);
         const ctx = img.getContext("2d");
-        const bg = await canvas.loadImage("../images/request.png");
+        const bg = await canvas.loadImage(`${__dirname}/../images/request.png`);
         const avatar = await canvas.loadImage(user.displayAvatarURL({ format: "jpg" }));
         const avatar2 = await canvas.loadImage(interaction.member.user.displayAvatarURL({ format: "jpg" }));
-        const flags = await canvas.loadImage("../images/flags.png");
+        const flags = await canvas.loadImage(`${__dirname}/../images/flags.png`);
         registerFont("../legionary/images/Minecraft.ttf", { family: "Minecraft" });
         ctx.font = '120px "Minecraft"';
         ctx.drawImage(bg, 0, 0, img.width, img.height);
