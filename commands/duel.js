@@ -184,7 +184,7 @@ module.exports = {
 
                     const fight = await interaction.channel.createMessageCollector({
                         filter: (m) => !isNaN(m.content),
-                        time: 60 * 1000,
+                        time: 10 * 60 * 1000,
                     });
 
                     fight.on("collect", async (m) => {
@@ -245,7 +245,6 @@ module.exports = {
                                 files: [attachmentFight],
                             });
                             await m.delete();
-                        } else {
                         }
                     });
 
