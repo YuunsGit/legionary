@@ -1,5 +1,4 @@
 const Util = require("../util");
-const members = require("../members.json");
 
 module.exports = {
     data: {

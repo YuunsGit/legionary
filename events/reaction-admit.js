@@ -1,5 +1,4 @@
 const Util = require("../util");
-const members = require("../members.json");
 const { MessageAttachment } = require("discord.js");
 
 module.exports = {
@@ -15,7 +14,7 @@ module.exports = {
         }
         try {
             const channel = reaction.message.channel.id;
-            const memberObject = Util.getMember(reaction.message.author.id);
+            const memberObject = await Util.getMember(reaction.message.author.id);
             const cross = new MessageAttachment("../images/cross.gif", "idea.gif");
             const check = new MessageAttachment("../images/check.gif", "idea.gif");
 
@@ -42,7 +41,7 @@ module.exports = {
                     reaction.message.edit({ files: [check] });
             }
 
-            Util.saveFile("../members.json", members);
+            await memberObject.save();
         } catch (err) {}
     },
 };

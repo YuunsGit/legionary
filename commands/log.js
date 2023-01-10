@@ -147,6 +147,6 @@ module.exports = {
                 interaction.reply(`Yeni kayıt başarıyla eklendi. ${Util.emoji("ln_pepeok", interaction.client)}`);
         }
 
-        Util.saveFile("../logs.json", logs);
+        //Util.saveFile("../logs.json", logs);
     },
 };

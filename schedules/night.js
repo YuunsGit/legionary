@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const config = require("../schemas/config");
-const logs = require("../logs.json");
+const logs = require("../schemas/log");
 const cron = require("node-cron");
 
 module.exports = (client) => {
@@ -12,7 +12,7 @@ module.exports = (client) => {
         "00 00 19 * * *",
         async () => {
             const channel = client.channels.cache.get("419963388941172739");
-            const length = logs.daily.length;
+            /*const length = logs.daily.length;
 
             let today = length > 0 ? "" : `\nKayda değer bir şey yaşanmamış gibi ${emoji("ln_Depression")}`;
             for (const one of logs.daily) {
@@ -22,7 +22,7 @@ module.exports = (client) => {
                 today = `${today}\n__Verimli bir gündü, umarım eğlenmişsinizdir ${emoji("ln_pepeok")}__`;
             } else if (length >= 8) {
                 today = `${today}\n__Vay canına, cidden dolu dolu bir gündü ${emoji("ln_pepeheart2")}__`;
-            }
+            }*/
 
             const messageCount = await config.findOne().then((configObject) => {
                 return configObject.messages;
@@ -41,7 +41,7 @@ module.exports = (client) => {
                     {
                         inline: false,
                         name: "Bugün Legion'da başka neler yaşandı?",
-                        value: `${today}`,
+                        value: `\nKayda değer bir şey yaşanmamış gibi ${emoji("ln_Depression")}`,
                     },
                     {
                         inline: false,

@@ -1,7 +1,6 @@
 const { MessageEmbed, MessageAttachment } = require("discord.js");
 const petpet = require("pet-pet-gif");
 const Util = require("../util");
-const members = require("../members.json");
 
 module.exports = {
     data: {
@@ -50,10 +49,8 @@ module.exports = {
             files: [attachment],
         });
 
-        const memberObject = Util.getMember(id);
-        if (!memberObject) return;
-
+        const memberObject = await Util.getMember(id);
         memberObject.pets++;
-        Util.saveFile("../members.json", members);
+        await memberObject.save();
     },
 };

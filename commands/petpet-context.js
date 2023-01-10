@@ -1,7 +1,6 @@
 const { MessageEmbed, MessageAttachment } = require("discord.js");
 const petpet = require("pet-pet-gif");
 const Util = require("../util");
-const members = require("../members.json");
 
 module.exports = {
     data: {
@@ -30,10 +29,8 @@ module.exports = {
             .setImage("attachment://pet.gif");
         await interaction.reply({ content: `> ${user.toString()}`, embeds: [embed], files: [attachment] });
 
-        const memberObject = Util.getMember(interaction.targetId);
-        if (!memberObject) return;
-
+        const memberObject = await Util.getMember(interaction.targetId);
         memberObject.pets++;
-        Util.saveFile("../members.json", members);
+        await memberObject.save();
     },
 };

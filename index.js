@@ -1,5 +1,5 @@
 require("dotenv").config();
-const config = require("./config.json");
+const config = require("./schemas/config");
 const fs = require("fs");
 const { Client, Intents, Collection } = require("discord.js");
 const client = new Client({
@@ -22,11 +22,6 @@ const commandFiles = fs.readdirSync("./commands").filter((file) => file.endsWith
 const eventFiles = fs.readdirSync("./events").filter((file) => file.endsWith(".js"));
 
 client.on("ready", async () => {
-    client.user.setActivity({
-        name: config.status.name,
-        type: config.status.type,
-    });
-
     for (const file of commandFiles) {
         const command = require(`./commands/${file}`);
 
@@ -40,6 +35,13 @@ client.on("ready", async () => {
         .connect(process.env.MONGODB_URI)
         .then(() => console.log("MongoDB connected"))
         .catch((err) => console.log(err));
+
+    configFile = await config.findOne();
+
+    client.user.setActivity({
+        name: configFile.status.name,
+        type: configFile.status.type,
+    });
 
     await client.guilds.cache
         .get("419963388941172737")

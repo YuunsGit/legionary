@@ -1,4 +1,3 @@
-const members = require("../members.json");
 const Util = require("../util");
 const { MessageEmbed, Permissions } = require("discord.js");
 
