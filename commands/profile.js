@@ -162,7 +162,10 @@ module.exports = {
             files: [attachment],
             fetchReply: true,
         });
-        const collector = await sentEmbed.createMessageComponentCollector({ componentType: "BUTTON", time: 150000 });
+        const collector = await sentEmbed.createMessageComponentCollector({
+            componentType: "BUTTON",
+            time: 1000 * 60 * 2,
+        });
 
         collector.on("collect", async (i) => {
             switch (i.customId) {
@@ -176,15 +179,25 @@ module.exports = {
                     await interaction.editReply({ embeds: [about] });
                     break;
                 case "exit":
-                    await sentEmbed.removeAttachments();
-                    if (interaction.member.id === i.member.id)
+                    if (interaction.member.id === i.member.id) {
+                        await sentEmbed.removeAttachments();
                         await interaction.editReply({
                             content: "> *Profil penceresi kapatıldı.*",
                             embeds: [],
                             components: [],
                         });
+                    }
             }
             await i.deferUpdate();
+        });
+
+        collector.on("end", async (i) => {
+            await sentEmbed.removeAttachments();
+            await interaction.editReply({
+                content: "> *Profil penceresi otomatik olarak kapatıldı.*",
+                embeds: [],
+                components: [],
+            });
         });
     },
 };
