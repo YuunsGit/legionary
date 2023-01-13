@@ -1,8 +1,9 @@
-const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = require("discord.js");
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, AttachmentBuilder } = require("discord.js");
 const Util = require("../util");
 const canvas = require("canvas");
 const { registerFont } = require("canvas");
 const activePlayers = new Set();
+const { ComponentType } = require("discord.js");
 
 module.exports = {
     data: {
@@ -90,8 +91,8 @@ module.exports = {
         const img = canvas.createCanvas(1104, 621);
         const ctx = img.getContext("2d");
         const bg = await canvas.loadImage(`${__dirname}/../images/duel/bg/bg${Math.floor(Math.random() * 10 + 1)}.png`);
-        const avatar = await canvas.loadImage(user.displayAvatarURL({ format: "jpg" }));
-        const avatar2 = await canvas.loadImage(interaction.member.user.displayAvatarURL({ format: "jpg" }));
+        const avatar = await canvas.loadImage(user.displayAvatarURL({ extension: "jpg" }));
+        const avatar2 = await canvas.loadImage(interaction.member.user.displayAvatarURL({ extension: "jpg" }));
         const frames = await canvas.loadImage(`${__dirname}/../images/duel/bg/frames.png`);
         ctx.drawImage(bg, 0, 0, img.width, img.height);
         ctx.drawImage(avatar, 0, 457, 170, 170);
@@ -110,9 +111,9 @@ module.exports = {
         requestCtx.drawImage(p2, 28, 65, 450, 333);
         requestCtx.fillText("Duello?", 1104 / 2, 540);
 
-        const attachment = new MessageAttachment(requestImg.toBuffer(), "img.png");
+        const attachment = new AttachmentBuilder(requestImg.toBuffer(), { name: "img.png" });
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Düello teklifi aldın!")
             .setColor("#b752b7")
             .setDescription(`Teklif eden: ${interaction.member.toString()}`)
@@ -124,10 +125,10 @@ module.exports = {
             : "**Bahis yok**";
         embed.setDescription(embed.description + "\n" + betDesc);
 
-        const row = new MessageActionRow().addComponents(
-            new MessageButton().setStyle("SUCCESS").setLabel("Kabul Et").setEmoji("⚔").setCustomId("accept"),
-            new MessageButton().setStyle("DANGER").setLabel("Reddet").setEmoji("✋🏽").setCustomId("refuse"),
-            new MessageButton().setStyle("SECONDARY").setLabel("Yardım").setEmoji("❔").setCustomId("help")
+        const row = new ActionRowBuilder().addComponents(
+            new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Kabul Et").setEmoji("⚔").setCustomId("accept"),
+            new ButtonBuilder().setStyle(ButtonStyle.Danger).setLabel("Reddet").setEmoji("✋🏽").setCustomId("refuse"),
+            new ButtonBuilder().setStyle(ButtonStyle.Secondary).setLabel("Yardım").setEmoji("❔").setCustomId("help")
         );
 
         const sentEmbed = await interaction.reply({
@@ -138,7 +139,7 @@ module.exports = {
             components: [row],
         });
         const collector = await sentEmbed.createMessageComponentCollector({
-            componentType: "BUTTON",
+            componentType: ComponentType.Button,
             time: 3 * 60 * 1000,
         });
 
@@ -159,7 +160,7 @@ module.exports = {
                     const player = interaction.member;
                     const players = [player, opponent];
 
-                    const acceptedEmbed = new MessageEmbed()
+                    const acceptedEmbed = new EmbedBuilder()
                         .setTitle("Teklif kabul edildi!")
                         .setColor("#b752b7")
                         .setDescription(`Sıra sende: ${players[turn].toString()}\nBir sayı gir!`)
@@ -177,7 +178,7 @@ module.exports = {
                     acceptCtx.drawImage(acceptP2, 28, 65, 450, 333);
                     acceptCtx.fillText("0 - 1000", 1104 / 2, 540);
 
-                    const attachmentAccept = new MessageAttachment(acceptImg.toBuffer(), "img.png");
+                    const attachmentAccept = new AttachmentBuilder(acceptImg.toBuffer(), { name: "img.png" });
 
                     await collector.stop("button");
                     await interaction.editReply({ embeds: [acceptedEmbed], components: [], files: [attachmentAccept] });
@@ -231,14 +232,14 @@ module.exports = {
                             fightCtx.drawImage(fightP2, 28, 65, 450, 333);
                             fightCtx.fillText(min + " - " + max, 1104 / 2, 540);
 
-                            const fightEmbed = new MessageEmbed()
+                            const fightEmbed = new EmbedBuilder()
                                 .setTitle("Aralık daraldı!")
                                 .setColor("#b752b7")
                                 .setDescription(`Sıra sende: ${players[turn].toString()}\nBir sayı gir!`)
                                 .setImage("attachment://img.png")
                                 .setThumbnail(players[turn].displayAvatarURL());
 
-                            const attachmentFight = new MessageAttachment(fightImg.toBuffer(), "img.png");
+                            const attachmentFight = new AttachmentBuilder(fightImg.toBuffer(), { name: "img.png" });
 
                             await interaction.editReply({
                                 embeds: [fightEmbed],
@@ -275,9 +276,9 @@ module.exports = {
                         endCtx.font = '50px "Minecraft"';
                         endCtx.fillText(min + " - " + max, 1104 / 2, 400);
 
-                        const attachmentEnd = new MessageAttachment(endImg.toBuffer(), "img.png");
+                        const attachmentEnd = new AttachmentBuilder(endImg.toBuffer(), { name: "img.png" });
 
-                        const endEmbed = new MessageEmbed()
+                        const endEmbed = new EmbedBuilder()
                             .setTitle("Oyun bitti!")
                             .setColor("#b752b7")
                             .setDescription(

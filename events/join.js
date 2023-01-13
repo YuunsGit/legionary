@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     name: "guildMemberAdd",
@@ -6,7 +6,7 @@ module.exports = {
         if (member.user.bot) return;
         const legion = client.guilds.cache.get("419963388941172737").name;
         const channel = client.channels.cache.get("479708170932060198");
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setAuthor({
                 name: "Üye Duyurusu:",
                 iconURL: client.guilds.cache.get("419963388941172737").iconURL(),

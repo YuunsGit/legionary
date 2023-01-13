@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 const cron = require("node-cron");
 const fetch = require("node-fetch");
 
@@ -43,7 +43,7 @@ module.exports = (client) => {
                 istanbulWeather.main.humidity +
                 " nemli";
 
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setTitle("Günaydın Legion! :city_sunset:")
                 .setAuthor({
                     name: "Günlük Duyuru:",

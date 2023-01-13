@@ -1,5 +1,5 @@
 const Util = require("../util");
-const { MessageEmbed, Permissions } = require("discord.js");
+const { EmbedBuilder, Permissions } = require("discord.js");
 
 module.exports = {
     data: {
@@ -55,10 +55,7 @@ module.exports = {
             return;
         }
 
-        if (
-            ["ekle", "sil"].includes(action) &&
-            !interaction.guild.members.cache.get(interaction.member.id).permissions.has(Permissions.FLAGS.ADMINISTRATOR)
-        ) {
+        if (["ekle", "sil"].includes(action) && interaction.member.id !== "305044214239068162") {
             interaction.reply({ content: "¯\\_(ツ)_/¯", allowedMentions: { repliedUser: true } });
             return;
         }
@@ -99,7 +96,7 @@ module.exports = {
                 }
                 memberObjectSelf.lp -= count;
                 memberObject.lp += Math.ceil((count * 4) / 5);
-                const embed = new MessageEmbed()
+                const embed = new EmbedBuilder()
                     .setColor("#b752b7")
                     .setTitle(`${interaction.member.displayName} sana LP yolladı!`)
                     .setDescription(
@@ -110,7 +107,7 @@ module.exports = {
                     .setThumbnail(
                         "https://media.discordapp.net/attachments/574221710811725824/872064641830912020/image0.gif"
                     )
-                    .setFooter(`Yere ise ${Math.floor(count / 5)} LP düşmüş. ¯\\_(ツ)_/¯`);
+                    .setFooter({ text: `Yere ise ${Math.floor(count / 5)} LP düşmüş. ¯\\_(ツ)_/¯` });
                 interaction.reply({
                     content: `> ${interaction.options.getUser("kullanıcı").toString()}`,
                     embeds: [embed],

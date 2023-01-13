@@ -1,4 +1,3 @@
-const member = require("../schemas/member");
 const Util = require("../util");
 const Discord = require("discord.js");
 
@@ -35,11 +34,11 @@ module.exports = {
         const memberObjectSelf = await Util.getMember(interaction.member.id);
 
         if (!memberObjectSelf.daily) {
-            const embed = new Discord.MessageEmbed()
+            const embed = new Discord.EmbedBuilder()
                 .setColor("#b752b7")
                 .setTitle(`Bugünkü hakkını zaten kullandın!`)
                 .setDescription(
-                    `> Günlük 100${Util.emoji("LP_small_spin", interaction.client)}
+                    `> Günlük 500${Util.emoji("LP_small_spin", interaction.client)}
                     > hakkı her gün saat
                     > 00:00'da yenilenir.`
                 )
@@ -51,35 +50,37 @@ module.exports = {
         }
 
         memberObjectSelf.daily = false;
-        memberObject.lp += 100;
+        memberObject.lp += 500;
         if (memberObjectSelf.id === memberObject.id) {
-            const embed = new Discord.MessageEmbed()
+            const embed = new Discord.EmbedBuilder()
                 .setColor("#b752b7")
                 .setTitle(`Günlük LP hakkını aldın!`)
                 .setDescription(
-                    `> Günlük 100${Util.emoji("LP_small_spin", interaction.client)}
+                    `> Günlük 500${Util.emoji("LP_small_spin", interaction.client)}
                     > hakkını kullandın.`
                 )
                 .setThumbnail(
                     "https://media.discordapp.net/attachments/574221710811725824/872211432677195876/LP_stack.gif"
                 )
-                .setFooter(`Toplam servetin ${memberObject.lp} LP oldu!`);
+                .setFooter({ text: `Toplam servetin ${memberObject.lp} LP oldu!` });
             interaction.reply({ content: `> ${interaction.member.toString()}`, embeds: [embed] });
         } else {
             const random = Math.floor(Math.random() * 50) + 1;
             memberObjectSelf.lp += random;
-            const embed = new Discord.MessageEmbed()
+            const embed = new Discord.EmbedBuilder()
                 .setColor("#b752b7")
                 .setTitle(`${interaction.member.displayName} sana LP hediye etti!`)
                 .setDescription(
                     `> ${interaction.member.toString()}
-                    > sana günlük 100${Util.emoji("LP_small_spin", interaction.client)}
+                    > sana günlük 500${Util.emoji("LP_small_spin", interaction.client)}
                     > hakkını hediye etti!`
                 )
                 .setThumbnail(
                     "https://media.discordapp.net/attachments/574221710811725824/872203736511053905/gift2.gif"
                 )
-                .setFooter(`${interaction.member.displayName} yardımseverlik ödülü olarak ${random} LP kazandı!`);
+                .setFooter({
+                    text: `${interaction.member.displayName} yardımseverlik ödülü olarak ${random} LP kazandı!`,
+                });
             interaction.reply({ content: `> ${user.toString()}`, embeds: [embed] });
         }
         await memberObjectSelf.save();

@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     name: "messageCreate",
@@ -15,7 +15,7 @@ module.exports = {
 
         if (!mentioned.content) return;
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setAuthor({
                 name: mentioned.author.username + ":",
                 iconURL: mentioned.author.displayAvatarURL({ dynamic: true }),

@@ -1,4 +1,4 @@
-const { MessageEmbed, MessageAttachment } = require("discord.js");
+const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const petpet = require("pet-pet-gif");
 const Util = require("../util");
 
@@ -33,12 +33,12 @@ module.exports = {
             });
             return;
         }
-        let gif = await petpet(interaction.options.getUser("kullanıcı").displayAvatarURL({ format: "png" }), {
+        let gif = await petpet(interaction.options.getUser("kullanıcı").displayAvatarURL({ extension: "png" }), {
             delay: 30,
         });
-        const attachment = new MessageAttachment(gif, "pet.gif");
+        const attachment = new AttachmentBuilder(gif, { name: "pet.gif" });
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor("#b752b7")
             .setTitle("Okşandın!")
             .setDescription("Okşayan: " + interaction.member.toString())

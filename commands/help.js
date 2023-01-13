@@ -1,23 +1,23 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 module.exports = {
     data: {
         name: "yardım",
         description: "He-Man neler yapabilir?",
     },
     execute(interaction) {
-        const embed = new MessageEmbed({
+        const embed = new EmbedBuilder({
             fields: [
                 {
                     name: "Kullanıcı Komutları",
                     value: "```fix\n/avatar\n/ben\n/günlük\n/hava\n/sözlük\n/çevir\n/kişisel\n/lp\n/profil\n/öneri\n```",
                     inline: true,
                 },
-                { name: "Eğlence Komutları", value: "```fix\n/okşa\n/yazıtura\n/8top\n```", inline: true },
+                { name: "Eğlence Komutları", value: "```fix\n/okşa\n/yazıtura\n/8top\n/düello\n```", inline: true },
                 { name: "Yönetim Komutları", value: "```md\n/durum\n/kayıt\n/lp\n/tepki\n```", inline: true },
             ],
             title: "He-Man Komutları:",
             description:
-                "> Temmuz 2021'den beri geliştirilme sürecinde olan ve şu an v2.0 sürümünde bulunan Legion özel botu <@857603715028877323> Legion kullanıcılarına hizmet etmeye devam ediyor.\n\n> Önerilerinizi ve tespit ettiğiniz hataları bildirmek için <#869517460896907334> ve <#877160655071871038> kanallarını kullanabilirsiniz.",
+                "> Temmuz 2021'den beri geliştirilme sürecinde olan ve şu an v2.4 sürümünde bulunan Legion özel botu <@857603715028877323> Legion kullanıcılarına hizmet etmeye devam ediyor.\n\n> Önerilerinizi ve tespit ettiğiniz hataları bildirmek için <#869517460896907334> ve <#877160655071871038> kanallarını kullanabilirsiniz.",
             author: {
                 name: "Legion Özel Botu",
                 icon_url:

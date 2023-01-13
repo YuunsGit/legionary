@@ -1,7 +1,7 @@
 module.exports = {
     name: "interactionCreate",
     async execute(interaction) {
-        if (!interaction.isCommand() && !interaction.isContextMenu()) return;
+        if (!interaction.isCommand() && !interaction.isUserContextMenuCommand()) return;
 
         const { commandName } = interaction;
 

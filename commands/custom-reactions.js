@@ -1,6 +1,6 @@
 const Util = require("../util");
 const reactions = require("../schemas/reaction");
-const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
+const { EmbedBuilder, ButtonBuilder, ActionRowBuilder, ButtonStyle, ComponentType } = require("discord.js");
 
 module.exports = {
     data: {
@@ -102,11 +102,13 @@ module.exports = {
                 for (const one of customReactions) {
                     list = list + "\n` " + one.id + " ` " + one.text;
                     if (x % 15 === 0 || x === customReactions.length) {
-                        const embed = new MessageEmbed()
+                        const embed = new EmbedBuilder()
                             .setTitle(Util.capitalize(genre) + " Tepki Listesi:")
                             .setColor("#b752b7")
                             .setDescription(list)
-                            .setFooter(Math.ceil(x / 15) + " / " + pageCount)
+                            .setFooter({
+                                text: Math.ceil(x / 15) + " / " + pageCount,
+                            })
                             .setThumbnail(
                                 "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png"
                             );
@@ -115,9 +117,9 @@ module.exports = {
                     }
                     x++;
                 }
-                const row = new MessageActionRow().addComponents(
-                    new MessageButton().setStyle("SUCCESS").setLabel("Önceki Sayfa").setCustomId("left"),
-                    new MessageButton().setStyle("SUCCESS").setLabel("Sonraki Sayfa").setCustomId("right")
+                const row = new ActionRowBuilder().addComponents(
+                    new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Önceki Sayfa").setCustomId("left"),
+                    new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Sonraki Sayfa").setCustomId("right")
                 );
                 const sentEmbed = await interaction.reply({
                     embeds: [listPages[0]],
@@ -126,7 +128,7 @@ module.exports = {
                     allowedMentions: { repliedUser: true },
                 });
                 const collector = await sentEmbed.createMessageComponentCollector({
-                    componentType: "BUTTON",
+                    componentType: ComponentType.Button,
                     time: 60000,
                 });
 

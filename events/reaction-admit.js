@@ -1,5 +1,5 @@
 const Util = require("../util");
-const { MessageAttachment } = require("discord.js");
+const { AttachmentBuilder } = require("discord.js");
 
 module.exports = {
     name: "messageReactionAdd",
@@ -15,8 +15,8 @@ module.exports = {
         try {
             const channel = reaction.message.channel.id;
             const memberObject = await Util.getMember(reaction.message.author.id);
-            const cross = new MessageAttachment("../images/cross.gif", "idea.gif");
-            const check = new MessageAttachment("../images/check.gif", "idea.gif");
+            const cross = new AttachmentBuilder("../images/cross.gif", { name: "idea.gif" });
+            const check = new AttachmentBuilder("../images/check.gif", { name: "idea.gif" });
 
             if (!["513656451475046421", "877160655071871038"].includes(channel)) return;
 

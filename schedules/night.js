@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 const config = require("../schemas/config");
 const logs = require("../schemas/log");
 const cron = require("node-cron");
@@ -28,7 +28,7 @@ module.exports = (client) => {
                 return configObject.messages;
             });
 
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setTitle("İyi Akşamlar Legion! :night_with_stars:")
                 .setAuthor({
                     name: "Günlük Duyuru:",

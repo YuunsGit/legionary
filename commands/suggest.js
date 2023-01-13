@@ -1,4 +1,4 @@
-const { MessageEmbed, MessageAttachment } = require("discord.js");
+const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const Util = require("../util");
 
 module.exports = {
@@ -38,11 +38,14 @@ module.exports = {
 
         const suggestion = interaction.options.getString("öneri");
         const suggestionChannel = interaction.guild.channels.cache.get(interaction.options.getString("türü"));
-        const idea = new MessageAttachment("./images/idea.gif", "idea.gif");
+        const idea = new AttachmentBuilder("./images/idea.gif", { name: "idea.gif" });
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Yeni öneri: :paperclip:")
-            .setAuthor(interaction.user.username.toString(), interaction.user.displayAvatarURL({ dynamic: true }))
+            .setAuthor({
+                name: interaction.user.username.toString(),
+                iconURL: interaction.user.displayAvatarURL({ dynamic: true }),
+            })
             .setColor("#b752b7")
             .setDescription(Util.capitalize(suggestion))
             .setThumbnail("attachment://idea.gif");

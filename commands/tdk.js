@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     data: {
@@ -36,7 +36,7 @@ module.exports = {
             desc = `${desc}\n**${one.anlam_sira}.** ${one.anlam}`;
         }
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setThumbnail("https://i.imgur.com/PBO8ADv.png")
             .setTitle(`"${word}" kelimesinin anlamı:`)
             .setDescription(desc)

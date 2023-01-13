@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 const logs = require("../schemas/log");
 const Util = require("../util");
 
@@ -85,7 +85,7 @@ module.exports = {
                 for (const one of logs[genre]) {
                     list = list + "\n` " + one.id + " ` : " + one.log;
                 }
-                const embed = new MessageEmbed()
+                const embed = new EmbedBuilder()
                     .setTitle(Util.capitalize(genre) + ` Kayıtlar:`)
                     .setColor("#b752b7")
                     .setDescription(list);

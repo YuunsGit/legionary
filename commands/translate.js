@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     data: {
@@ -46,12 +46,14 @@ module.exports = {
                 `https://tureng.com/tr/turkce-ingilizce/${word}`
             )})`;
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setThumbnail("https://i.imgur.com/XpVCpWc.png")
             .setTitle(`${word.toLowerCase()}:`)
             .setDescription(desc)
             .setColor("#b752b7")
-            .setFooter(`${wordObj.count} adet sonuç bulundu.`);
+            .setFooter({
+                text: `${wordObj.count} adet sonuç bulundu.`,
+            });
 
         interaction.reply({ embeds: [embed] });
     },

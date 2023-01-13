@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     data: {
@@ -25,7 +25,7 @@ module.exports = {
         try {
             const output = await eval(input);
 
-            const embed = new MessageEmbed().setTitle("EVAL").addFields(
+            const embed = new EmbedBuilder().setTitle("EVAL").addFields(
                 {
                     inline: false,
                     name: "INPUT",

@@ -1,6 +1,7 @@
-const { MessageEmbed, MessageAttachment, MessageActionRow, MessageButton } = require("discord.js");
+const { EmbedBuilder, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 const Util = require("../util");
 const canvas = require("canvas");
+const { ComponentType } = require("discord.js");
 
 module.exports = {
     data: {
@@ -46,7 +47,7 @@ module.exports = {
         const ctx = pp.getContext("2d");
         const bg = await canvas.loadImage("./images/bg.png");
         ctx.drawImage(bg, 0, 0, pp.width, pp.height);
-        const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({ format: "jpg" }));
+        const avatar = await canvas.loadImage(guildMember.user.displayAvatarURL({ extension: "jpg" }));
         ctx.beginPath();
         ctx.arc(358, 132, 93, 0, Math.PI * 2, true);
         ctx.closePath();
@@ -55,8 +56,8 @@ module.exports = {
 
         const formatter = new Intl.NumberFormat();
 
-        const attachment = new MessageAttachment(pp.toBuffer(), "profile.png");
-        const home = new MessageEmbed()
+        const attachment = new AttachmentBuilder(pp.toBuffer(), { name: "profile.png" });
+        const home = new EmbedBuilder()
             .setTitle(guildMember.displayName + " Kullanıcısının Legion İstatistikleri")
             .setAuthor({
                 name: "Legion Kullanıcı Profili",
@@ -119,38 +120,50 @@ module.exports = {
                 },
             ])
             .setImage("attachment://profile.png")
-            .setFooter("/kişisel komuduyla profil özelliştirmelerine göz atabilirsin");
+            .setFooter({ text: "/kişisel komuduyla profil özelliştirmelerine göz atabilirsin" });
 
-        const links = new MessageEmbed()
+        const links = new EmbedBuilder()
             .setTitle(guildMember.displayName + " Kullanıcısının Bağlantıları")
-            .setAuthor(
-                "Legion Kullanıcı Profili",
-                "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png"
-            )
+            .setAuthor({
+                name: "Legion Kullanıcı Profili",
+                iconURL:
+                    "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png",
+            })
             .setColor("#b752b7")
-            .addFields(memberObject.links)
+            .addFields(
+                memberObject.links
+                    .map((link) => {
+                        return { name: link.name, value: link.value, inline: link.inline };
+                    })
+                    .slice(0, 25)
+            )
             .setImage("attachment://profile.png")
-            .setFooter("/kişisel komuduyla profil özelliştirmelerine göz atabilirsin");
+            .setFooter({ text: "/kişisel komuduyla profil özelliştirmelerine göz atabilirsin" });
         if (memberObject.links.length <= 0) {
             links.setDescription("Bu kullanıcı henüz bağlantı eklememiş.");
         }
 
-        const about = new MessageEmbed()
+        const about = new EmbedBuilder()
             .setTitle(guildMember.displayName + " Kullanıcısı Hakkında Bilgi")
-            .setAuthor(
-                "Legion Kullanıcı Profili",
-                "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png"
-            )
+            .setAuthor({
+                name: "Legion Kullanıcı Profili",
+                iconURL:
+                    "https://media.discordapp.net/attachments/769124445632987156/860102416250830868/Untitled_Artwork.png",
+            })
             .setColor("#b752b7")
             .setDescription("**Hakkında:**\n" + memberObject.description)
             .setImage("attachment://profile.png")
-            .setFooter("/kişisel komuduyla profil özelliştirmelerine göz atabilirsin");
+            .setFooter({ text: "/kişisel komuduyla profil özelliştirmelerine göz atabilirsin" });
 
-        const row = new MessageActionRow().addComponents(
-            new MessageButton().setStyle("SUCCESS").setLabel("Ana Sayfa").setCustomId("home").setEmoji("🏠"),
-            new MessageButton().setStyle("SUCCESS").setLabel("Bağlantılar").setCustomId("links").setEmoji("🔗"),
-            new MessageButton().setStyle("SUCCESS").setLabel("Hakkında").setCustomId("about").setEmoji("📜"),
-            new MessageButton().setStyle("DANGER").setEmoji("✖").setCustomId("exit")
+        const row = new ActionRowBuilder().addComponents(
+            new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Ana Sayfa").setCustomId("home").setEmoji("🏠"),
+            new ButtonBuilder()
+                .setStyle(ButtonStyle.Success)
+                .setLabel("Bağlantılar")
+                .setCustomId("links")
+                .setEmoji("🔗"),
+            new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Hakkında").setCustomId("about").setEmoji("📜"),
+            new ButtonBuilder().setStyle(ButtonStyle.Danger).setEmoji("✖").setCustomId("exit")
         );
 
         const sentEmbed = await interaction.reply({
@@ -163,7 +176,7 @@ module.exports = {
             fetchReply: true,
         });
         const collector = await sentEmbed.createMessageComponentCollector({
-            componentType: "BUTTON",
+            componentType: ComponentType.Button,
             time: 1000 * 60 * 2,
         });
 

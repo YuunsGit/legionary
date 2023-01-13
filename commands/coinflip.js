@@ -1,7 +1,6 @@
-const { MessageEmbed, MessageAttachment } = require("discord.js");
+const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const member = require("../schemas/member");
 const Util = require("../util");
-const fs = require("fs");
 const talkedRecently = new Set();
 
 module.exports = {
@@ -52,11 +51,11 @@ module.exports = {
             const value = Math.round(Math.random());
             const random = Math.round(Math.random() * 5000);
 
-            const yazi = new MessageAttachment("./images/yazi.png", "yazi.png");
-            const tura = new MessageAttachment("./images/tura.png", "tura.png");
-            const dik = new MessageAttachment("./images/dik.png", "dik.png");
+            const yazi = new AttachmentBuilder("./images/yazi.png", { name: "yazi.png" });
+            const tura = new AttachmentBuilder("./images/tura.png", { name: "tura.png" });
+            const dik = new AttachmentBuilder("./images/dik.png", { name: "dik.png" });
 
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setDescription("Şans insanlara hakim olur,\ninsanlar şansa değil.")
                 .setColor("#805c1a");
 
@@ -91,10 +90,10 @@ module.exports = {
 
             if (side) {
                 if (
-                    side.toLowerCase() === embed.title.toLowerCase() ||
-                    side.toLowerCase() === embed.title.toLowerCase().charAt(0)
+                    side.toLowerCase() === embed.data.title.toLowerCase() ||
+                    side.toLowerCase() === embed.data.title.toLowerCase().charAt(0)
                 ) {
-                    switch (embed.title.toLowerCase()) {
+                    switch (embed.data.title.toLowerCase()) {
                         case "dik":
                             interaction.editReply({
                                 content: `${Util.emoji(

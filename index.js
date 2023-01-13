@@ -1,20 +1,23 @@
 require("dotenv").config();
 const config = require("./schemas/config");
 const fs = require("fs");
-const { Client, Intents, Collection } = require("discord.js");
+const { Client, GatewayIntentBits, Partials, Collection } = require("discord.js");
 const client = new Client({
     intents: [
-        Intents.FLAGS.GUILDS,
-        Intents.FLAGS.GUILD_MESSAGES,
-        Intents.FLAGS.GUILD_MEMBERS,
-        Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildMessageReactions,
+        GatewayIntentBits.GuildVoiceStates,
     ],
-    partials: ["MESSAGE", "CHANNEL", "REACTION"],
+    partials: [Partials.Channel, Partials.Message, Partials.Reaction],
 });
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const rest = new REST({ version: "9" }).setToken(process.env.TOKEN);
 const mongoose = require("mongoose");
+const { Player } = require("discord-player");
+const player = new Player(client);
 
 client.commands = new Collection();
 commands = [];
@@ -81,6 +84,29 @@ client.on("ready", async () => {
     });
 
     console.log("The client is ready");
+
+    setTimeout(async () => {
+        const queue = player.createQueue(client.guilds.cache.get("419963388941172737"));
+
+        try {
+            if (!queue.connection)
+                await queue.connect(
+                    client.guilds.cache.get("419963388941172737").channels.cache.get("1063541373191585812")
+                );
+        } catch {
+            queue.destroy();
+            return console.log("Error: Could not join voice channel!");
+        }
+
+        const track = await player
+            .search("https://www.youtube.com/watch?v=jfKfPfyJRdk", {
+                requestedBy: client.user,
+            })
+            .then((x) => x.tracks[0]);
+        if (!track) return console.log("Error: Lofi stream not found!");
+
+        queue.play(track);
+    }, 2000);
 });
 
 client.login(process.env.TOKEN);

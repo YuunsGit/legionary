@@ -1,4 +1,4 @@
-const { MessageEmbed, MessageAttachment } = require("discord.js");
+const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const talkedRecently = new Set();
 
 module.exports = {
@@ -41,7 +41,7 @@ module.exports = {
             "Hiç sanmıyorum.",
         ];
         const answer = answers[Math.floor(Math.random() * answers.length)];
-        const attachment = new MessageAttachment("./images/8ball.png");
+        const attachment = new AttachmentBuilder("./images/8ball.png");
 
         // Under cooldown
         if (talkedRecently.has(interaction.member.id)) {
@@ -51,7 +51,7 @@ module.exports = {
                 allowedMentions: { repliedUser: true },
             });
         } else {
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setThumbnail("attachment://8ball.png")
                 .setAuthor({
                     name: `${interaction.user.username} Kullanısının 8Top Sonucu:`,
