@@ -9,6 +9,7 @@ const client = new Client({
         GatewayIntentBits.GuildMembers,
         GatewayIntentBits.GuildMessageReactions,
         GatewayIntentBits.GuildVoiceStates,
+        GatewayIntentBits.MessageContent,
     ],
     partials: [Partials.Channel, Partials.Message, Partials.Reaction],
 });

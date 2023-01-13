@@ -134,7 +134,7 @@ module.exports = {
 
                 collector.on("collect", (i) => {
                     if (i.user.id === interaction.user.id) {
-                        const page = parseInt(sentEmbed.embeds[0].footer.text.split(" ")[0]) - 1;
+                        const page = parseInt(sentEmbed.embeds[0].data.footer.text.split(" ")[0]) - 1;
                         switch (i.customId) {
                             case "right":
                                 if (page + 1 > listPages.length - 1) {

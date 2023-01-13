@@ -1,4 +1,4 @@
-const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, AttachmentBuilder } = require("discord.js");
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, AttachmentBuilder, ButtonStyle } = require("discord.js");
 const Util = require("../util");
 const canvas = require("canvas");
 const { registerFont } = require("canvas");
@@ -113,17 +113,16 @@ module.exports = {
 
         const attachment = new AttachmentBuilder(requestImg.toBuffer(), { name: "img.png" });
 
-        const embed = new EmbedBuilder()
-            .setTitle("Düello teklifi aldın!")
-            .setColor("#b752b7")
-            .setDescription(`Teklif eden: ${interaction.member.toString()}`)
-            .setFooter({ text: "Oyunla ilgili bilgi almak için yardım butonuna tıklayabilirsin." })
-            .setImage("attachment://img.png")
-            .setThumbnail("https://i.imgur.com/QbnJjgx.png");
         const betDesc = bet
             ? `**Bahis miktarı ${bet}${Util.emoji("LP_small_spin", interaction.client)}**`
             : "**Bahis yok**";
-        embed.setDescription(embed.description + "\n" + betDesc);
+        const embed = new EmbedBuilder()
+            .setTitle("Düello teklifi aldın!")
+            .setColor("#b752b7")
+            .setDescription(`Teklif eden: ${interaction.member.toString()}\n${betDesc}`)
+            .setFooter({ text: "Oyunla ilgili bilgi almak için yardım butonuna tıklayabilirsin." })
+            .setImage("attachment://img.png")
+            .setThumbnail("https://i.imgur.com/QbnJjgx.png");
 
         const row = new ActionRowBuilder().addComponents(
             new ButtonBuilder().setStyle(ButtonStyle.Success).setLabel("Kabul Et").setEmoji("⚔").setCustomId("accept"),
