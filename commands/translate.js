@@ -20,6 +20,8 @@ module.exports = {
             return;
         }
 
+        return;
+
         const word = interaction.options.getString("kelime");
         const wordObj = await fetch(encodeURI(`http://tureng.herokuapp.com/translate?phrase=${word}`))
             .then((res) => res.json())

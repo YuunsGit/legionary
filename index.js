@@ -40,7 +40,7 @@ client.on("ready", async () => {
 
     client.user.setActivity({
         name: configFile.status.name,
-        type: configFile.status.type,
+        type: configFile.status.action,
     });
 
     await client.guilds.cache
