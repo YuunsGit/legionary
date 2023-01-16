@@ -20,6 +20,10 @@ module.exports = {
             return;
         }
 
+        fetch("https://tureng.com/tr/turkce-ingilizce/kemik")
+            .then((res) => res.text())
+            .then((json) => console.log(json));
+
         return;
 
         const word = interaction.options.getString("kelime");

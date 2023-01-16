@@ -17,11 +17,11 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setAuthor({
-                name: mentioned.author.username + ":",
+                name: mentioned.author.username,
                 iconURL: mentioned.author.displayAvatarURL({ dynamic: true }),
             })
-            .setColor("#b752b7")
-            .setDescription("> " + mentioned.content)
+            .setColor("#2f3136")
+            .setDescription(mentioned.content)
             .setTimestamp(mentioned.createdAt)
             .setFooter({ text: "#" + client.guilds.cache.get(guild).channels.cache.get(channel).name });
 
