@@ -5,7 +5,7 @@
   Legionary - Discord bot
 </h1>
 <p align="center">
-  Very first version of <a href="https://www.yuuns.tech" target="_blank">yuuns.tech</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  Private server Legion's exclusive Discord bot that is capable of various operations such as spell-checking, reactions, essential commands and little games.
 </p>
 <div align="center">
   <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/218768505-1d629aea-6896-4a4f-8d9a-3053167fb9fc.png" width="100" />
