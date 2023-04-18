@@ -11,7 +11,7 @@ module.exports = {
   name: "messageCreate",
   async execute(message) {
     if (
-      message.mentions.users.size > 0 ||
+      message.mentions.users.size < 1 ||
       !message.mentions.users.has("857603715028877323")
     )
       return;
