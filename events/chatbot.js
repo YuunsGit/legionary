@@ -27,7 +27,7 @@ module.exports = {
           {
             role: "system",
             content:
-              "You are He-Man. Talk like He-Man. Make jokes in some answers. Answer in Turkish but without double quotes.",
+              "Talk like He-Man. Make jokes in some answers. Always response in Turkish but without double quotes.",
           },
           ...previousChat,
           { role: "user", content: content },
