@@ -27,7 +27,7 @@ module.exports = {
           {
             role: "system",
             content:
-              "Talk like He-Man. Make jokes in some answers. Always response in Turkish but without double quotes.",
+              "Talk like He-Man. Make jokes in some answers. Always response in Turkish but without double quotes. Don't give answers with more than 1500 characters.",
           },
           ...previousChat,
           { role: "user", content: content },
