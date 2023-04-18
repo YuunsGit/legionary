@@ -25,8 +25,8 @@
         "mongoose": "^6.8.2",
         "node-cron": "^3.0.0",
         "node-fetch": "^2.6.1",
+        "openai": "^3.2.1",
         "openweather-apis": "^4.4.1",
-        "pet-pet-gif": "^1.0.9",
-        "smartestchatbot": "^3.0.0"
+        "pet-pet-gif": "^1.0.9"
     }
 }
